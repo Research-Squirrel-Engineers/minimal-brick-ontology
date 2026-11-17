@@ -45,8 +45,9 @@ def nav(active: str) -> str:
     dl = [("ontology.ttl", "ontology.ttl"), ("thesaurus.ttl", "thesaurus.ttl"), ("mbo-shapes.ttl", "shapes"), ("catalogue.ttl", "DCAT-AP catalogue")]
     def row(label, items):
         a = "".join(f'<a href="{h}"{" class=on" if h == active else ""}>{E(t)}</a>' for h, t in items)
-        return f'<div class="row"><span class="lab">{label}</span>{a}</div>'
-    return "<nav>" + row("Documentation", docs) + row("Downloads", dl) + "</nav>"
+        cls = "docs" if label == "Documentation" else "dl"
+        return f'<div class="row {cls}"><span class="lab">{label}</span>{a}</div>'
+    return '<nav class="card">' + row("Documentation", docs) + row("Downloads", dl) + "</nav>"
 
 
 def page(name: str, title: str, body: str, head: str = "", tail: str = "") -> None:
@@ -175,7 +176,8 @@ An element is a narrower type of its design (<code>P127</code>) and carries its 
 def thesaurus_page(js: dict) -> None:
     raw = (U.DIST / "thesaurus.json").read_text(encoding="utf-8")
     if len(raw.encode("utf-8")) <= INLINE_LIMIT:
-        data_tag = f'<script>window.MBO_DATA={raw.replace("</", "<\\/")};</script>'
+        safe = raw.replace("</", "<\\/")
+        data_tag = f'<script>window.MBO_DATA={safe};</script>'
         loader = '<script src="assets/thesaurus.js"></script>'
     else:
         data_tag = ""
