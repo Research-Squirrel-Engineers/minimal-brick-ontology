@@ -1,5 +1,5 @@
 parse   ontology             336 triples  (ontology/mbo.ttl)
-parse   thesaurus          32531 triples  (dist/thesaurus.ttl)
+parse   thesaurus          30045 triples  (dist/thesaurus.ttl)
 parse   example             1098 triples  (dist/example-pyramid.ttl)
 parse   catalogue            126 triples  (dist/catalogue.ttl)
 parse   mbo-shapes           185 triples  (shapes/mbo-shapes.ttl)

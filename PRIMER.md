@@ -34,6 +34,7 @@ der Rekonstruktions-Chat „Lego-Stein 3D-Modell rekonstruieren“ (KIRI-Scans, 
   Transparente Farben haben im Seed bewusst keinen Hex.
 - Seed-Teilenummern (außer 3069b und 4073/6141) sind ebenfalls nicht durch eine abgerufene Quelle
   belegt; `main.py fetch` bestätigt sie gegen `parts.csv`.
+- Minifigurenteile (geprüft 2026-11-18 gegen `parts.csv`): Rebrickable-Kategorien heißen `Minifig Heads`, `Minifig Upper Body`, `Minifig Lower Body`, `Minifig Headwear` (nicht Torsos/Arms/Hands); Oberkörper und Unterkörper enthalten Torso, Arme, Hände bzw. Hüfte und Beine gemischt, daher entscheidet der Teilename. 3815, 3816–3820 stehen unverändert in `parts.csv`. Der Kopf heißt dort nur 3626a/b/c (plain), die Torsonummer 973 gibt es nur mit Suffix und als Druck; 973 bleibt `seed`. Muster-Varianten (`pat`, `pats`, `px`, `ps`, `p<Ziffer>`) zählen wie `pr`/`pb` als Drucke und sind nicht im Umfang.
 - Das Wort „Brick“ kollidiert mit dem Brick Schema (Gebäudetechnik). Daher der Name `minimal-brick-ontology`/MBO.
 
 ## A2 Zielbild

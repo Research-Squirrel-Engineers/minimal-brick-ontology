@@ -37,13 +37,28 @@ SCHEMES = {
 VOCAB_TYPE = {"colour": MBO.ColourGroup, "part": MBO.PartCategory, "feature": MBO.Feature,
               "unit": MBO.Unit, "identifier-system": MBO.IdentifierSystem}
 
-SKIP_PRINT = re.compile(r"(pr|pb)\d")          # printed variants are out of scope
+SKIP_PRINT = re.compile(r"(pr|pb|pat|pats|px|ps|p)\d")  # printed and patterned variants are out of scope
 DIMS = re.compile(r"^(Brick|Plate|Tile|Baseplate) (\d+) x (\d+)$")
 RB_TOP = [(re.compile(r"^Bricks?\b"), "brick"), (re.compile(r"^Plates?\b"), "plate"),
           (re.compile(r"^Tiles?\b"), "tile"), (re.compile(r"^Baseplates?\b"), "baseplate")]
-RB_MINIFIG = [(re.compile(r"^Minifig Heads"), "minifig-head"), (re.compile(r"^Minifig Torsos"), "minifig-torso"),
-              (re.compile(r"^Minifig Arms"), "minifig-arm"), (re.compile(r"^Minifig Hands"), "minifig-hand"),
-              (re.compile(r"^Minifig Headwear"), "minifig-headwear")]
+# Rebrickable category names (checked against part_categories.csv of 2026-11-18). Upper and lower body
+# hold torsos, arms and hands resp. hips and legs together, so the part name decides.
+RB_MINIFIG_NAME = {
+    "Minifig Heads": [(re.compile(r".*"), "minifig-head")],
+    "Minifig Upper Body": [(re.compile(r"^(Minifig )?Torso\b", re.I), "minifig-torso"),
+                           (re.compile(r"^(Minifig )?Hand\b", re.I), "minifig-hand"),
+                           (re.compile(r"^(Minifig )?Arm\b", re.I), "minifig-arm")],
+    "Minifig Lower Body": [(re.compile(r"^Hips\s*(\[.*\])?$", re.I), "minifig-hips"),
+                           (re.compile(r"^(Minifig )?Legs?\b", re.I), "minifig-leg")],
+    "Minifig Headwear": [(re.compile(r".*"), "minifig-headwear")],
+}
+
+
+def minifig_top(cat: str, name: str):
+    for rx, t in RB_MINIFIG_NAME.get(cat, []):
+        if rx.search(name):
+            return t
+    return None
 
 
 # ------------------------------------------------------------------ rules ---
@@ -179,9 +194,7 @@ def load_parts(report: list[str]) -> list[dict]:
             num, name, cat = r["part_num"], r["name"], cats.get(r["part_cat_id"], "")
             top = next((t for rx, t in RB_TOP if rx.match(cat)), None)
             if top is None:
-                top = next((t for rx, t in RB_MINIFIG if rx.match(cat)), None)
-                if top is None and cat.startswith("Minifig Hips and Legs"):
-                    top = "minifig-leg" if "leg" in name.lower() else "minifig-hips"
+                top = minifig_top(cat, name)
             if top is None:
                 continue
             if SKIP_PRINT.search(num):
@@ -205,6 +218,16 @@ def load_parts(report: list[str]) -> list[dict]:
                 parts[num] = p
             p["rb_num"] = num
             p["rb_cat"] = cat
+        # A seed design may only exist in Rebrickable as lettered plain variants (3626 -> 3626a, 3626b, 3626c).
+        for num, sp in parts.items():
+            if sp["status"] != "seed":
+                continue
+            fam = sorted(n for n, q in parts.items() if q is not sp and re.fullmatch(re.escape(num) + r"[a-z]", n))
+            if fam:
+                sp["status"] = "rebrickable"
+                sp["sources"] = [x for x in sp["sources"] if x != "seed-unverified"] + ["rebrickable-downloads"]
+                sp["note"] = (sp["note"] + " " if sp["note"] else "") + "Rebrickable lists this design only as plain variants: " + ", ".join(fam) + "."
+                confirmed += 1
         report.append(f"parts: {confirmed} seed parts confirmed in Rebrickable, {added} added, {skipped} printed variants skipped")
         missing = [n for n, p in parts.items() if p["status"] == "seed"]
         if missing:
