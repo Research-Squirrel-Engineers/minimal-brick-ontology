@@ -1,0 +1,279 @@
+@prefix mbo: <https://w3id.org/mbo/ontology#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmba: <http://www.cidoc-crm.org/extensions/crmba/> .
+@prefix crmdig: <http://www.cidoc-crm.org/extensions/crmdig/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ------------------------------------------------------------------------
+# Minimal Brick Ontology (MBO)
+# Hand-written source. Everything under dist/ and docs/ is generated from it.
+# The CIDOC CRM alignment axioms were written by hand and are NOT machine-
+# checked against the CRM RDFS files (no network in the build sandbox).
+# ------------------------------------------------------------------------
+
+<https://w3id.org/mbo/ontology> a owl:Ontology ;
+    dct:title "Minimal Brick Ontology (MBO)"@en ;
+    dct:description "A small OWL ontology for describing interlocking plastic building bricks, plates, tiles and minifigure parts, and for describing models built from them. Classes are aligned to CIDOC CRM (E22, E55, E58, E99), CRMba (B1, B2) and CRMdig (D1, D3). Vocabulary terms live in the companion SKOS thesaurus."@en ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    owl:versionInfo "0.1.0" ;
+    rdfs:comment "Independent community vocabulary. Not affiliated with, authorised or endorsed by the LEGO Group. LEGO is a trademark of the LEGO Group."@en ;
+    dct:references <https://cidoc-crm.org/extensions/crmba/>, <https://cidoc-crm.org/extensions/crmdig/> .
+
+# ---------------------------------------------------------- external stubs --
+# Minimal declarations so that the subclass and subproperty axioms resolve.
+# The authoritative definitions are in the CIDOC CRM and its extensions.
+
+crm:E22_Human-Made_Object a owl:Class ; rdfs:label "E22 Human-Made Object"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:E55_Type a owl:Class ; rdfs:label "E55 Type"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:E58_Measurement_Unit a owl:Class ; rdfs:label "E58 Measurement Unit"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:E99_Product_Type a owl:Class ; rdfs:label "E99 Product Type"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crmba:B1_Built_Work a owl:Class ; rdfs:label "B1 Built Work"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmba/> .
+crmba:B2_Morphological_Building_Section a owl:Class ; rdfs:label "B2 Morphological Building Section"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmba/> .
+crmdig:D1_Digital_Object a owl:Class ; rdfs:label "D1 Digital Object"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmdig/> .
+crmdig:D3_Formal_Derivation a owl:Class ; rdfs:label "D3 Formal Derivation"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmdig/> .
+
+# ------------------------------------------------------- types (thesaurus) --
+
+mbo:ElementDesign a owl:Class ;
+    rdfs:subClassOf crm:E99_Product_Type ;
+    rdfs:label "Element design"@en, "Bauteil-Design"@de ;
+    skos:definition "The shape of a part independent of its colour, identified by a design ID or a catalogue part number. Instances are SKOS concepts in the part scheme."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Element a owl:Class ;
+    rdfs:subClassOf crm:E99_Product_Type ;
+    rdfs:label "Element"@en, "Element"@de ;
+    skos:definition "A design in one specific colour (element ID). A narrower type of its design (P127)."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Colour a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:label "Colour"@en, "Farbe"@de ;
+    skos:definition "A colour of the LEGO palette. Instances are SKOS concepts in the colour scheme."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:ColourGroup a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:label "Colour group"@en, "Farbgruppe"@de ;
+    skos:definition "A finish group of colours: solid, transparent, metallic and pearl, special effect."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:PartCategory a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:label "Part category"@en, "Teilekategorie"@de ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Feature a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:label "Feature"@en, "Merkmal"@de ;
+    skos:definition "A geometric or connective feature of a part, for example a stud."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Unit a owl:Class ;
+    rdfs:subClassOf crm:E58_Measurement_Unit ;
+    rdfs:label "Unit"@en, "Einheit"@de ;
+    skos:definition "A grid or measurement unit of the brick system, for example the stud pitch."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:IdentifierSystem a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:label "Identifier system"@en, "Nummernsystem"@de ;
+    skos:definition "A numbering system for parts, for example design ID, BrickLink or LDraw."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+# ------------------------------------------------------- things and models --
+
+mbo:Piece a owl:Class ;
+    rdfs:subClassOf crm:E22_Human-Made_Object ;
+    rdfs:label "Piece"@en, "Einzelteil"@de ;
+    skos:definition "One moulded piece, physical or virtual, typed by an element."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Assembly a owl:Class ;
+    rdfs:subClassOf crm:E22_Human-Made_Object ;
+    rdfs:label "Assembly"@en, "Baugruppe"@de ;
+    skos:definition "A thing assembled from pieces."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Minifigure a owl:Class ;
+    rdfs:subClassOf mbo:Assembly ;
+    rdfs:label "Minifigure"@en, "Minifigur"@de ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Build a owl:Class ;
+    rdfs:subClassOf mbo:Assembly, crmba:B1_Built_Work ;
+    rdfs:label "Build"@en, "Bauwerk"@de ;
+    skos:definition "A construction made of pieces, organised in layers. Aligned to CRMba B1 Built Work."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:Layer a owl:Class ;
+    rdfs:subClassOf crmba:B2_Morphological_Building_Section ;
+    rdfs:label "Layer"@en, "Ebene"@de ;
+    skos:definition "A horizontal layer of a build, one brick high (three plates). Aligned to CRMba B2 Morphological Building Section."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:BuildModel a owl:Class ;
+    rdfs:subClassOf crmdig:D1_Digital_Object ;
+    rdfs:label "Build model"@en, "Bauwerksmodell"@de ;
+    skos:definition "A digital description or 3D model of a build."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:ReconstructionProcess a owl:Class ;
+    rdfs:subClassOf crmdig:D3_Formal_Derivation ;
+    rdfs:label "Reconstruction process"@en, "Rekonstruktionsprozess"@de ;
+    skos:definition "A derivation of an idealised brick model from a scan, using L21 used as derivation source and L22 created derivative."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+# ------------------------------------------------------------ object props --
+
+mbo:hasDesign a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P127_has_broader_term ;
+    rdfs:domain mbo:Element ; rdfs:range mbo:ElementDesign ;
+    rdfs:label "has design"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:hasColour a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain mbo:Element ; rdfs:range mbo:Colour ;
+    rdfs:label "has colour"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:hasFeature a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain mbo:ElementDesign ; rdfs:range mbo:Feature ;
+    rdfs:label "has feature"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:instanceOfElement a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain mbo:Piece ; rdfs:range mbo:Element ;
+    rdfs:label "instance of element"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:hasPiece a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P46_is_composed_of ;
+    rdfs:range mbo:Piece ;
+    rdfs:label "has piece"@en ;
+    rdfs:comment "Used by assemblies and by layers."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:inLayer a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P46i_forms_part_of ;
+    rdfs:domain mbo:Piece ; rdfs:range mbo:Layer ;
+    rdfs:label "in layer"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:isLayerOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf crmba:BP1_is_section_of ;
+    rdfs:domain mbo:Layer ; rdfs:range mbo:Build ;
+    rdfs:label "is layer of"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:hasLayer a owl:ObjectProperty ;
+    owl:inverseOf mbo:isLayerOf ;
+    rdfs:label "has layer"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:describesBuild a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P129_is_about ;
+    rdfs:domain mbo:BuildModel ; rdfs:range mbo:Build ;
+    rdfs:label "describes build"@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+# ---------------------------------------------------------- datatype props --
+
+mbo:studsLength a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:integer ;
+    rdfs:label "studs along the length"@en ;
+    rdfs:comment "Number of studs along the longer side of the grid footprint. Shortcut for a CRM E54 Dimension (P43) in grid units."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:studsWidth a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:integer ;
+    rdfs:label "studs along the width"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:heightInPlates a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:integer ;
+    rdfs:label "height in plates"@en ;
+    rdfs:comment "Height in plate heights: a plate or tile is 1, a brick is 3."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:nominalLengthMm a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:decimal ;
+    rdfs:label "nominal length in mm"@en ;
+    rdfs:comment "Derived: studs x 8 mm - 0.2 mm. Nominal, not a tolerance guarantee. Not published by the LEGO Group."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:nominalWidthMm a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:decimal ;
+    rdfs:label "nominal width in mm"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:nominalHeightMm a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:decimal ;
+    rdfs:label "nominal height in mm"@en ;
+    rdfs:comment "Derived: height in plates x 3.2 mm, without stud."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:nominalMm a owl:DatatypeProperty ; rdfs:domain mbo:Unit ; rdfs:range xsd:decimal ;
+    rdfs:label "nominal value in mm"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:hexColour a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "hex colour"@en ;
+    rdfs:comment "Six hexadecimal digits without '#', upper case. An approximation of the colour on screen, not an official LEGO value."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:hueFamily a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "hue family"@en ;
+    rdfs:comment "Coarse family derived from the hex value by a documented rule of this repository."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:era a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "era"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:designId a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:string ;
+    rdfs:label "design ID"@en ;
+    rdfs:comment "Shortcut for P1 is identified by an E42 Identifier of the identifier system 'design ID'."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:elementId a owl:DatatypeProperty ; rdfs:domain mbo:Element ; rdfs:range xsd:string ;
+    rdfs:label "element ID"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:brickLinkId a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:string ;
+    rdfs:label "BrickLink part number"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:rebrickablePartNumber a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:string ;
+    rdfs:label "Rebrickable part number"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:ldrawId a owl:DatatypeProperty ; rdfs:domain mbo:ElementDesign ; rdfs:range xsd:string ;
+    rdfs:label "LDraw part number"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:legoColourId a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "LEGO colour ID"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:gobricksColourId a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "Gobricks colour ID"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:rebrickableColourId a owl:DatatypeProperty ; rdfs:domain mbo:Colour ; rdfs:range xsd:string ;
+    rdfs:label "Rebrickable colour ID"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:verification a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:label "verification status"@en ;
+    rdfs:comment "One of: sourced (a cited retrieved source states it), seed (author-supplied, not confirmed), rebrickable (taken from the Rebrickable download), derived (computed by this repository)."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+mbo:gridX a owl:DatatypeProperty ; rdfs:domain mbo:Piece ; rdfs:range xsd:integer ;
+    rdfs:label "grid X"@en ; rdfs:comment "Stud position of the footprint corner with the smallest X, origin at the build corner."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:gridY a owl:DatatypeProperty ; rdfs:domain mbo:Piece ; rdfs:range xsd:integer ;
+    rdfs:label "grid Y"@en ; rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:gridZ a owl:DatatypeProperty ; rdfs:domain mbo:Piece ; rdfs:range xsd:integer ;
+    rdfs:label "grid Z"@en ; rdfs:comment "Height of the underside in plate heights above the build base."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:rotationDegrees a owl:DatatypeProperty ; rdfs:domain mbo:Piece ; rdfs:range xsd:decimal ;
+    rdfs:label "rotation in degrees"@en ;
+    rdfs:comment "Rotation about the vertical axis. 0 means the length of the design runs along X."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:layerIndex a owl:DatatypeProperty ; rdfs:domain mbo:Layer ; rdfs:range xsd:integer ;
+    rdfs:label "layer index"@en ; rdfs:comment "0 is the lowest layer."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+mbo:sceneScale a owl:DatatypeProperty ; rdfs:domain mbo:BuildModel ; rdfs:range xsd:decimal ;
+    rdfs:label "scene scale"@en ; rdfs:comment "Scale of the digital model relative to real bricks, for example 0.6667."@en ;
+    rdfs:isDefinedBy <https://w3id.org/mbo/ontology> .
+
+# ---------------------------------------------------- external property stubs --
+
+crm:P2_has_type a owl:ObjectProperty ; rdfs:label "P2 has type"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:P46_is_composed_of a owl:ObjectProperty ; rdfs:label "P46 is composed of"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:P46i_forms_part_of a owl:ObjectProperty ; rdfs:label "P46i forms part of"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:P127_has_broader_term a owl:ObjectProperty ; rdfs:label "P127 has broader term"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crm:P129_is_about a owl:ObjectProperty ; rdfs:label "P129 is about"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/> .
+crmba:BP1_is_section_of a owl:ObjectProperty ; rdfs:label "BP1 is section of"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmba/> .
+crmdig:L21_used_as_derivation_source a owl:ObjectProperty ; rdfs:label "L21 used as derivation source"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmdig/> .
+crmdig:L22_created_derivative a owl:ObjectProperty ; rdfs:label "L22 created derivative"@en ; rdfs:isDefinedBy <https://cidoc-crm.org/extensions/crmdig/> .

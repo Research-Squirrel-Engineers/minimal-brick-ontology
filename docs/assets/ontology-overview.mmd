@@ -1,0 +1,33 @@
+flowchart TB
+    CAT(["Part category<br/><small>SKOS concepts, crm:E55 Type</small>"])
+    DESIGN(["Element design<br/><small>crm:E99 Product Type</small>"])
+    FEAT(["Feature<br/><small>SKOS concepts, crm:E55 Type</small>"])
+    ELEM(["Element<br/><small>crm:E99 Product Type</small>"])
+    COL(["Colour<br/><small>SKOS concepts, crm:E55 Type</small>"])
+    ASM(["Assembly<br/><small>crm:E22 Human-Made Object</small>"])
+    PIECE(["Piece<br/><small>crm:E22 Human-Made Object</small>"])
+    LAYER(["Layer<br/><small>crmba:B2 Morphological Building Section</small>"])
+    MINI(["Minifigure<br/><small>subclass of Assembly</small>"])
+    MODEL(["Build model<br/><small>crmdig:D1 Digital Object</small>"])
+    BUILD(["Build<br/><small>crmba:B1 Built Work</small>"])
+    PROC(["Reconstruction process<br/><small>crmdig:D3 Formal Derivation</small>"])
+    SCAN(["crmdig:D1 Digital Object<br/><small>the scan</small>"])
+    DESIGN -->|"skos:broader"| CAT
+    DESIGN -->|"hasFeature"| FEAT
+    ELEM -->|"hasDesign"| DESIGN
+    ELEM -->|"hasColour"| COL
+    PIECE -->|"instanceOfElement"| ELEM
+    PIECE -->|"inLayer"| LAYER
+    ASM -->|"hasPiece"| PIECE
+    LAYER -->|"isLayerOf"| BUILD
+    MINI -->|"subClassOf"| ASM
+    MODEL -->|"describesBuild"| BUILD
+    PROC -->|"L22 created derivative"| MODEL
+    PROC -->|"L21 derivation source"| SCAN
+    classDef Class fill:#9a3412,stroke:#000000,color:#ffffff
+    classDef Term fill:#4c1d95,stroke:#000000,color:#ffffff
+    classDef OWL fill:#ffffff,stroke:#000000,color:#000000
+    classDef PropMeta fill:#fbbf24,stroke:#000000,color:#000000
+    class DESIGN,ELEM,ASM,PIECE,LAYER,MINI,MODEL,BUILD,PROC Class
+    class CAT,FEAT,COL Term
+    class SCAN OWL

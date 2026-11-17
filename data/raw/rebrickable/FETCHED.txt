@@ -1,0 +1,5 @@
+Rebrickable CSV downloads, stored unchanged (decompressed).
+Source: https://rebrickable.com/downloads/ (free for any purpose per the dataset description; see README).
+colors.csv  url=https://cdn.rebrickable.com/media/downloads/colors.csv.gz  bytes=13781  sha256=172426f15b04e3a9639e3c8018b15e10e6db9f1b9072e34e930f3df0f8c56525  last-modified=Tue, 17 Nov 2026 07:12:00 GMT
+part_categories.csv  url=https://cdn.rebrickable.com/media/downloads/part_categories.csv.gz  bytes=1660  sha256=d5413d4b0e296c9e87c53cd82041fd1393c97106677e6644113585c9a3d80ba4  last-modified=Tue, 17 Nov 2026 07:12:00 GMT
+parts.csv  url=https://cdn.rebrickable.com/media/downloads/parts.csv.gz  bytes=5801831  sha256=8ba07a9ea2afa221ec0aad3172c12a75c3f9c29c629a76bb0ebdaa9ccc77b8f5  last-modified=Tue, 17 Nov 2026 07:12:01 GMT

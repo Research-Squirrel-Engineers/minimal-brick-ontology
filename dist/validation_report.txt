@@ -1,0 +1,11 @@
+parse   ontology             336 triples  (ontology/mbo.ttl)
+parse   thesaurus          32531 triples  (dist/thesaurus.ttl)
+parse   example             1098 triples  (dist/example-pyramid.ttl)
+parse   catalogue            126 triples  (dist/catalogue.ttl)
+parse   mbo-shapes           185 triples  (shapes/mbo-shapes.ttl)
+parse   dcat-ap-subset        67 triples  (shapes/dcat-ap-subset-shapes.ttl)
+closure ontology declares 49 terms; thesaurus and example use 47; undeclared: 0
+shacl   MBO shapes on thesaurus + example: conforms=True
+shacl   DCAT-AP subset on catalogue: conforms=True, warnings=0
+note    the DCAT-AP check is a hand-written subset; run the official DCAT-AP shapes before submitting to a portal
+RESULT  OK

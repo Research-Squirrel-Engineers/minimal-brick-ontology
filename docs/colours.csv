@@ -1,0 +1,26 @@
+slug,name,hex,hex_status,finish,hue_family,lego_id,rebrickable_id,gobricks_id,verification,iri
+black,Black,05131D,seed,solid,Black,26,,080,sourced,https://w3id.org/mbo/thesaurus/colour/black
+blue,Blue,0055BF,seed,solid,Blue,23,,050,sourced,https://w3id.org/mbo/thesaurus/colour/blue
+bright-violet,Bright Violet,,none,solid,,104,,,sourced,https://w3id.org/mbo/thesaurus/colour/bright-violet
+dark-blue,Dark Blue,0A3463,seed,solid,Blue,140,,055,sourced,https://w3id.org/mbo/thesaurus/colour/dark-blue
+dark-bluish-gray,Dark Bluish Gray,6C6E68,seed,solid,Grey,199,,072,sourced,https://w3id.org/mbo/thesaurus/colour/dark-bluish-gray
+dark-red,Dark Red,720E0F,seed,solid,Red,154,,014,sourced,https://w3id.org/mbo/thesaurus/colour/dark-red
+dark-tan,Dark Tan,958A73,seed,solid,Orange,138,,034,sourced,https://w3id.org/mbo/thesaurus/colour/dark-tan
+green,Green,237841,seed,solid,Green,28,,040,sourced,https://w3id.org/mbo/thesaurus/colour/green
+light-bluish-gray,Light Bluish Gray,A0A5A9,seed,solid,Grey,194,,071,sourced,https://w3id.org/mbo/thesaurus/colour/light-bluish-gray
+light-gray,Light Gray,9BA19D,seed,solid,Grey,2,,,sourced,https://w3id.org/mbo/thesaurus/colour/light-gray
+light-nougat,Light Nougat,F6D7B3,seed,solid,Orange,283,,032,sourced,https://w3id.org/mbo/thesaurus/colour/light-nougat
+lime,Lime,BBE90B,seed,solid,Green,119,,042,sourced,https://w3id.org/mbo/thesaurus/colour/lime
+nougat,Nougat,D09168,seed,solid,Orange,18,,,sourced,https://w3id.org/mbo/thesaurus/colour/nougat
+orange,Orange,FE8A18,seed,solid,Orange,106,,021,sourced,https://w3id.org/mbo/thesaurus/colour/orange
+red,Red,C91A09,seed,solid,Red,21,,010,sourced,https://w3id.org/mbo/thesaurus/colour/red
+reddish-brown,Reddish Brown,582A12,seed,solid,Brown,192,,081,sourced,https://w3id.org/mbo/thesaurus/colour/reddish-brown
+sand-green,Sand Green,A0BCAC,seed,solid,Green,151,,048,sourced,https://w3id.org/mbo/thesaurus/colour/sand-green
+tan,Tan,E4CD9E,seed,solid,Tan,5,,031,sourced,https://w3id.org/mbo/thesaurus/colour/tan
+trans-clear,Trans-Clear,,none,transparent,,40,,180,sourced,https://w3id.org/mbo/thesaurus/colour/trans-clear
+trans-dark-blue,Trans-Dark Blue,,none,transparent,,43,,150,sourced,https://w3id.org/mbo/thesaurus/colour/trans-dark-blue
+trans-green,Trans-Green,,none,transparent,,48,,140,sourced,https://w3id.org/mbo/thesaurus/colour/trans-green
+trans-red,Trans-Red,,none,transparent,,41,,110,sourced,https://w3id.org/mbo/thesaurus/colour/trans-red
+trans-yellow,Trans-Yellow,,none,transparent,,44,,130,sourced,https://w3id.org/mbo/thesaurus/colour/trans-yellow
+white,White,FFFFFF,seed,solid,White,1,,090,sourced,https://w3id.org/mbo/thesaurus/colour/white
+yellow,Yellow,F2CD37,seed,solid,Yellow,24,,030,sourced,https://w3id.org/mbo/thesaurus/colour/yellow

@@ -1,0 +1,1602 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix mbo: <https://w3id.org/mbo/ontology#> .
+@prefix mbos: <https://w3id.org/mbo/source/> .
+@prefix mbot: <https://w3id.org/mbo/thesaurus/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mbos:brick-dimensions
+    a dct:BibliographicResource ;
+    dct:title "LEGO brick dimensions calculator (computed geometry, unofficial)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Footprint = studs x 8 mm - 0.2 mm; common part sizes; baseplate 32x32 = 256 mm; cites LUGNET FAQ and LDraw spec"@en ;
+    rdfs:seeAlso <https://brick-dimensions.pages.dev/> .
+
+mbos:brickarchitect-colour
+    a dct:BibliographicResource ;
+    dct:title "Understanding the Lego Colour Palette (Tom Alphin, BrickArchitect)"@en ;
+    dct:type "community" ;
+    rdfs:comment "LEGO names versus enthusiast names; 2016 palette counts"@en ;
+    rdfs:seeAlso <https://brickarchitect.com/color/> .
+
+mbos:brickfact-dimensions
+    a dct:BibliographicResource ;
+    dct:title "Lego brick dimensions (Brickfact)"@en ;
+    dct:type "community" ;
+    rdfs:comment "8 mm grid; brick 9.6 mm; plate 3.2 mm; stud 4.8 mm x about 1.7 mm; 0.2 mm gap per part"@en ;
+    rdfs:seeAlso <https://brickfact.com/blog/guidebooks/lego-brick-dimensions> .
+
+mbos:brickfact-identify
+    a dct:BibliographicResource ;
+    dct:title "How to identify Lego pieces: design ID, element ID and colour (Brickfact)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Design ID is moulded on the piece; LEGO, BrickLink and Rebrickable numbers and colour names differ; round plate 1x1 = LEGO 6141 / BrickLink 4073; tile 1x2 = 3069b"@en ;
+    rdfs:seeAlso <https://brickfact.com/blog/guidebooks/identify-lego-pieces> .
+
+mbos:brickimedia-colour
+    a dct:BibliographicResource ;
+    dct:title "Colour palette (Brickimedia), read via search snippet only"@en ;
+    dct:type "community" ;
+    rdfs:comment "Colour IDs 26 Black, 194 Medium Stone Grey, 199 Dark Stone Grey, 1 White; the page itself was not fetchable"@en ;
+    rdfs:seeAlso <https://en.brickimedia.org/wiki/Color_palette> .
+
+mbos:brickipedia-colour
+    a dct:BibliographicResource ;
+    dct:title "Colour Palette (Brickipedia)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Colour IDs 1 White, 5 Brick Yellow, 18 Nougat, 104 Bright Violet"@en ;
+    rdfs:seeAlso <https://brickipedia.fandom.com/wiki/Colour_Palette> .
+
+mbos:brickowl-stud-dimensions
+    a dct:BibliographicResource ;
+    dct:title "Stud Dimensions Guide (Brick Owl)"@en ;
+    dct:type "vendor" ;
+    rdfs:comment "Plate height 3.2 mm; stud height 1.7 mm; bar diameter 3.2 mm; Technic pin 4.8 mm"@en ;
+    rdfs:seeAlso <https://www.brickowl.com/help/stud-dimensions> .
+
+mbos:diyhpl-dimensions
+    a dct:BibliographicResource ;
+    dct:title "LEGO dimensions.yaml (diyhpl.us)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Underside cylinders and tubes, wall thicknesses, variant values"@en ;
+    rdfs:seeAlso <https://diyhpl.us/cgit/lego/tree/dimensions.yaml> .
+
+mbos:ldraw-forum-numbers
+    a dct:BibliographicResource ;
+    dct:title "LDraw forum: part number translation"@en ;
+    dct:type "community" ;
+    rdfs:comment "Different numbering systems (LDraw, LEGO, BrickLink) for the same part"@en ;
+    rdfs:seeAlso <https://forums.ldraw.org/printthread.php?tid=23337> .
+
+mbos:lugnet-dimensions
+    a dct:BibliographicResource ;
+    dct:title "LUGNET FAQ: building dimensions"@en ;
+    dct:type "community" ;
+    rdfs:comment "Brick height 9.6 mm, plate 3.2 mm, stud pitch 8.0 mm; LDU units 24/8/20; LU 6/2/5"@en ;
+    rdfs:seeAlso <https://lugnet.com/~330/FAQ/Build/dimensions> .
+
+mbos:newelementary-parts
+    a dct:BibliographicResource ;
+    dct:title "New LEGO parts lists (New Elementary)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Shows design ID versus element ID per colour, TLG names and Rebrickable names"@en ;
+    rdfs:seeAlso <https://www.newelementary.com/2022/03/what-are-new-lego-parts-for-march-2022.html> .
+
+mbos:orionrobots-specs
+    a dct:BibliographicResource ;
+    dct:title "Lego specifications (Orion Robots)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Stud spacing 8; stud diameter 5 (approx); LDU = 0.4 mm"@en ;
+    rdfs:seeAlso <https://orionrobots.co.uk/Lego%2BSpecifications> .
+
+mbos:rebrickable-api
+    a dct:BibliographicResource ;
+    dct:title "Rebrickable API documentation"@en ;
+    dct:type "community" ;
+    rdfs:comment "Parts, colours, sets and inventories; external BrickLink and BrickOwl identifiers"@en ;
+    rdfs:seeAlso <https://rebrickable.com/api/v3/docs/> .
+
+mbos:seed-unverified
+    a dct:BibliographicResource ;
+    dct:title "Author-supplied seed value, not confirmed by a retrieved source"@en ;
+    dct:type "seed" ;
+    rdfs:comment "Value written from general knowledge; replaced or confirmed when the Rebrickable download is processed"@en ;
+    rdfs:seeAlso <https://github.com/Research-Squirrel-Engineers/minimal-brick-ontology> .
+
+mbos:zoeblade-colour
+    a dct:BibliographicResource ;
+    dct:title "Lego colour (Zoe Blade's notebook)"@en ;
+    dct:type "community" ;
+    rdfs:comment "Classic (1950-1977) and current common colours with BrickLink name, LEGO ID and Gobricks ID; no hex values"@en ;
+    rdfs:seeAlso <https://notebook.zoeblade.com/Lego_colour.html> .
+
+mbos:zoeblade-dimensions
+    a dct:BibliographicResource ;
+    dct:title "Lego brick dimensions (Zoe Blade's notebook)"@en ;
+    dct:type "community" ;
+    rdfs:comment "All dimensions are multiples of a 1.6 mm unit; module = 5 units = 8 mm"@en ;
+    rdfs:seeAlso <https://notebook.zoeblade.com/Lego_brick_dimensions.html> .
+
+mbot:colour
+    a skos:ConceptScheme ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:description "LEGO colours with names, identifiers, hex approximations and finish groups."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    skos:hasTopConcept <https://w3id.org/mbo/thesaurus/colour/group-metallic>, <https://w3id.org/mbo/thesaurus/colour/group-solid>, <https://w3id.org/mbo/thesaurus/colour/group-special>, <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:prefLabel "Colours"@en, "Farben"@de .
+
+<https://w3id.org/mbo/thesaurus/colour/black>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickimedia-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Black"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "080" ;
+    mbo:hexColour "05131D" ;
+    mbo:hueFamily "Black" ;
+    mbo:legoColourId "26" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/blue>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Bright Blue"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Blue"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "050" ;
+    mbo:hexColour "0055BF" ;
+    mbo:hueFamily "Blue" ;
+    mbo:legoColourId "23" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/bright-violet>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickipedia-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:note "Hex value not provided by any retrieved source"@en ;
+    skos:prefLabel "Bright Violet"@en ;
+    mbo:era "current" ;
+    mbo:legoColourId "104" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/dark-blue>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Earth Blue"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Dark Blue"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "055" ;
+    mbo:hexColour "0A3463" ;
+    mbo:hueFamily "Blue" ;
+    mbo:legoColourId "140" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/dark-bluish-gray>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:brickimedia-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Dark Stone Gray"@en, "Dark Stone Grey"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Dark Bluish Gray"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "072" ;
+    mbo:hexColour "6C6E68" ;
+    mbo:hueFamily "Grey" ;
+    mbo:legoColourId "199" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/dark-red>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Dark Red"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "014" ;
+    mbo:hexColour "720E0F" ;
+    mbo:hueFamily "Red" ;
+    mbo:legoColourId "154" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/dark-tan>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Sand Yellow"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Dark Tan"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "034" ;
+    mbo:hexColour "958A73" ;
+    mbo:hueFamily "Orange" ;
+    mbo:legoColourId "138" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/green>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Green"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "040" ;
+    mbo:hexColour "237841" ;
+    mbo:hueFamily "Green" ;
+    mbo:legoColourId "28" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/group-metallic>
+    a skos:Concept, mbo:ColourGroup ;
+    dct:source mbos:seed-unverified ;
+    skos:definition "Colours whose name contains Metallic, Pearl, Chrome, Flat Silver or Flat Dark Gold (rule of this repository)."@en ;
+    skos:inScheme mbot:colour ;
+    skos:note "Classification rule is derived by this repository, not by LEGO."@en ;
+    skos:prefLabel "Metallic and pearl"@en, "Metallic und Perlmutt"@de ;
+    skos:topConceptOf mbot:colour ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/colour/group-solid>
+    a skos:Concept, mbo:ColourGroup ;
+    dct:source mbos:zoeblade-colour ;
+    skos:definition "Opaque colours."@en ;
+    skos:inScheme mbot:colour ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/colour/black>, <https://w3id.org/mbo/thesaurus/colour/blue>, <https://w3id.org/mbo/thesaurus/colour/bright-violet>, <https://w3id.org/mbo/thesaurus/colour/dark-blue>, <https://w3id.org/mbo/thesaurus/colour/dark-bluish-gray>, <https://w3id.org/mbo/thesaurus/colour/dark-red>, <https://w3id.org/mbo/thesaurus/colour/dark-tan>, <https://w3id.org/mbo/thesaurus/colour/green>, <https://w3id.org/mbo/thesaurus/colour/light-bluish-gray>, <https://w3id.org/mbo/thesaurus/colour/light-gray>, <https://w3id.org/mbo/thesaurus/colour/light-nougat>, <https://w3id.org/mbo/thesaurus/colour/lime>, <https://w3id.org/mbo/thesaurus/colour/nougat>, <https://w3id.org/mbo/thesaurus/colour/orange>, <https://w3id.org/mbo/thesaurus/colour/red>, <https://w3id.org/mbo/thesaurus/colour/reddish-brown>, <https://w3id.org/mbo/thesaurus/colour/sand-green>, <https://w3id.org/mbo/thesaurus/colour/tan>, <https://w3id.org/mbo/thesaurus/colour/white>, <https://w3id.org/mbo/thesaurus/colour/yellow> ;
+    skos:prefLabel "Deckend"@de, "Solid"@en ;
+    skos:topConceptOf mbot:colour ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/group-special>
+    a skos:Concept, mbo:ColourGroup ;
+    dct:source mbos:seed-unverified ;
+    skos:definition "Colours whose name contains Glitter, Speckle, Milky, Glow, Satin, Opal or Neon (rule of this repository)."@en ;
+    skos:inScheme mbot:colour ;
+    skos:note "Classification rule is derived by this repository, not by LEGO."@en ;
+    skos:prefLabel "Special effect"@en, "Spezialeffekt"@de ;
+    skos:topConceptOf mbot:colour ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/colour/group-transparent>
+    a skos:Concept, mbo:ColourGroup ;
+    dct:source mbos:rebrickable-api, mbos:zoeblade-colour ;
+    skos:definition "Translucent colours; Rebrickable marks them with is_trans and a Trans- prefix."@en ;
+    skos:inScheme mbot:colour ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/colour/trans-clear>, <https://w3id.org/mbo/thesaurus/colour/trans-dark-blue>, <https://w3id.org/mbo/thesaurus/colour/trans-green>, <https://w3id.org/mbo/thesaurus/colour/trans-red>, <https://w3id.org/mbo/thesaurus/colour/trans-yellow> ;
+    skos:prefLabel "Transparent"@de, "Transparent"@en ;
+    skos:topConceptOf mbot:colour ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/light-bluish-gray>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:brickimedia-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Light Stone Gray"@en, "Medium Stone Grey"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:note "Grey tint changed around 2004 (brickarchitect, brickipedia)"@en ;
+    skos:prefLabel "Light Bluish Gray"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "071" ;
+    mbo:hexColour "A0A5A9" ;
+    mbo:hueFamily "Grey" ;
+    mbo:legoColourId "194" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/light-gray>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:note "Classic light grey (before the bluish greys of 2003/2004)"@en ;
+    skos:prefLabel "Light Gray"@en ;
+    mbo:era "classic" ;
+    mbo:hexColour "9BA19D" ;
+    mbo:hueFamily "Grey" ;
+    mbo:legoColourId "2" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/light-nougat>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Light Flesh"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Light Nougat"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "032" ;
+    mbo:hexColour "F6D7B3" ;
+    mbo:hueFamily "Orange" ;
+    mbo:legoColourId "283" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/lime>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Lime"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "042" ;
+    mbo:hexColour "BBE90B" ;
+    mbo:hueFamily "Green" ;
+    mbo:legoColourId "119" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/nougat>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickipedia-colour, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Nougat"@en ;
+    mbo:era "current" ;
+    mbo:hexColour "D09168" ;
+    mbo:hueFamily "Orange" ;
+    mbo:legoColourId "18" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/orange>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Orange"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "021" ;
+    mbo:hexColour "FE8A18" ;
+    mbo:hueFamily "Orange" ;
+    mbo:legoColourId "106" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/red>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Bright Red"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Red"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "010" ;
+    mbo:hexColour "C91A09" ;
+    mbo:hueFamily "Red" ;
+    mbo:legoColourId "21" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/reddish-brown>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Reddish Brown"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "081" ;
+    mbo:hexColour "582A12" ;
+    mbo:hueFamily "Brown" ;
+    mbo:legoColourId "192" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/sand-green>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Sand Green"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "048" ;
+    mbo:hexColour "A0BCAC" ;
+    mbo:hueFamily "Green" ;
+    mbo:legoColourId "151" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/tan>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickarchitect-colour, mbos:brickipedia-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Brick Yellow"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:note "LEGO ID 5 is listed as Brick Yellow (brickipedia) and Tan (zoeblade); brickarchitect gives Brick Yellow as the alternative name of Tan"@en ;
+    skos:prefLabel "Tan"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "031" ;
+    mbo:hexColour "E4CD9E" ;
+    mbo:hueFamily "Tan" ;
+    mbo:legoColourId "5" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/trans-clear>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:zoeblade-colour ;
+    skos:altLabel "Transparent Clear"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:inScheme mbot:colour ;
+    skos:note "Hex left empty: appearance of transparent colours depends on alpha"@en ;
+    skos:prefLabel "Trans-Clear"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "180" ;
+    mbo:legoColourId "40" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/trans-dark-blue>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:zoeblade-colour ;
+    skos:altLabel "Transparent Dark Blue"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Trans-Dark Blue"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "150" ;
+    mbo:legoColourId "43" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/trans-green>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:zoeblade-colour ;
+    skos:altLabel "Transparent Green"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Trans-Green"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "140" ;
+    mbo:legoColourId "48" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/trans-red>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:zoeblade-colour ;
+    skos:altLabel "Transparent Red"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Trans-Red"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "110" ;
+    mbo:legoColourId "41" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/trans-yellow>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:zoeblade-colour ;
+    skos:altLabel "Transparent Yellow"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-transparent> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Trans-Yellow"@en ;
+    mbo:era "current" ;
+    mbo:gobricksColourId "130" ;
+    mbo:legoColourId "44" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/white>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:brickimedia-colour, mbos:brickipedia-colour, mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "White"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "090" ;
+    mbo:hexColour "FFFFFF" ;
+    mbo:hueFamily "White" ;
+    mbo:legoColourId "1" ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/colour/yellow>
+    a skos:Concept, mbo:Colour ;
+    dct:source mbos:seed-unverified, mbos:zoeblade-colour ;
+    skos:altLabel "Bright Yellow"@en ;
+    skos:broader <https://w3id.org/mbo/thesaurus/colour/group-solid> ;
+    skos:inScheme mbot:colour ;
+    skos:prefLabel "Yellow"@en ;
+    mbo:era "classic+current" ;
+    mbo:gobricksColourId "030" ;
+    mbo:hexColour "F2CD37" ;
+    mbo:hueFamily "Yellow" ;
+    mbo:legoColourId "24" ;
+    mbo:verification "sourced" .
+
+mbot:feature
+    a skos:ConceptScheme ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:description "Geometric and connective features of parts."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    skos:hasTopConcept <https://w3id.org/mbo/thesaurus/feature/hollow-underside>, <https://w3id.org/mbo/thesaurus/feature/stud>, <https://w3id.org/mbo/thesaurus/feature/underside-tube> ;
+    skos:prefLabel "Features"@en, "Merkmale"@de .
+
+<https://w3id.org/mbo/thesaurus/feature/hollow-underside>
+    a skos:Concept, mbo:Feature ;
+    dct:source mbos:diyhpl-dimensions ;
+    skos:definition "Cavity enclosed by the walls on the underside of a brick."@en ;
+    skos:inScheme mbot:feature ;
+    skos:prefLabel "Hohle Unterseite"@de, "Hollow underside"@en ;
+    skos:topConceptOf mbot:feature ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/feature/stud>
+    a skos:Concept, mbo:Feature ;
+    dct:source mbos:brickfact-dimensions, mbos:brickowl-stud-dimensions ;
+    skos:definition "Cylindrical protrusion on top of an element; nominal diameter 4.8 mm and height about 1.7 mm."@en ;
+    skos:inScheme mbot:feature ;
+    skos:note "Variant values: Ø 4.5 to 5 mm, height 1.6 to 1.86 mm (orionrobots-specs, diyhpl-dimensions)."@en ;
+    skos:prefLabel "Noppe"@de, "Stud"@en ;
+    skos:topConceptOf mbot:feature ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/feature/underside-tube>
+    a skos:Concept, mbo:Feature ;
+    dct:source mbos:diyhpl-dimensions ;
+    skos:definition "Cylinder on the underside of a brick; the source gives an outer diameter of about 6.3 to 6.6 mm."@en ;
+    skos:inScheme mbot:feature ;
+    skos:prefLabel "Underside tube"@en, "Unterseitenröhre"@de ;
+    skos:topConceptOf mbot:feature ;
+    mbo:verification "sourced" .
+
+mbot:identifier-system
+    a skos:ConceptScheme ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:description "Numbering systems used for parts."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    skos:hasTopConcept <https://w3id.org/mbo/thesaurus/identifier-system/bricklink-id>, <https://w3id.org/mbo/thesaurus/identifier-system/design-id>, <https://w3id.org/mbo/thesaurus/identifier-system/element-id>, <https://w3id.org/mbo/thesaurus/identifier-system/ldraw-id>, <https://w3id.org/mbo/thesaurus/identifier-system/rebrickable-id> ;
+    skos:prefLabel "Identifier systems"@en, "Nummernsysteme"@de .
+
+<https://w3id.org/mbo/thesaurus/identifier-system/bricklink-id>
+    a skos:Concept, mbo:IdentifierSystem ;
+    dct:source mbos:brickfact-identify ;
+    skos:definition "Part number in the BrickLink catalogue; may differ from the LEGO design ID."@en ;
+    skos:inScheme mbot:identifier-system ;
+    skos:prefLabel "BrickLink part number"@en, "BrickLink-Teilenummer"@de ;
+    skos:topConceptOf mbot:identifier-system ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/identifier-system/design-id>
+    a skos:Concept, mbo:IdentifierSystem ;
+    dct:source mbos:brickfact-identify ;
+    skos:definition "Number moulded on the piece; it does not encode the colour."@en ;
+    skos:inScheme mbot:identifier-system ;
+    skos:prefLabel "Design ID"@en, "Design-ID"@de ;
+    skos:topConceptOf mbot:identifier-system ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/identifier-system/element-id>
+    a skos:Concept, mbo:IdentifierSystem ;
+    dct:source mbos:brickfact-identify, mbos:newelementary-parts ;
+    skos:definition "Identifies a design in one specific colour; the same design in four colours has four element IDs."@en ;
+    skos:inScheme mbot:identifier-system ;
+    skos:prefLabel "Element ID"@en, "Element-ID"@de ;
+    skos:topConceptOf mbot:identifier-system ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/identifier-system/ldraw-id>
+    a skos:Concept, mbo:IdentifierSystem ;
+    dct:source mbos:ldraw-forum-numbers ;
+    skos:definition "Part number in the LDraw library."@en ;
+    skos:inScheme mbot:identifier-system ;
+    skos:prefLabel "LDraw part number"@en, "LDraw-Teilenummer"@de ;
+    skos:topConceptOf mbot:identifier-system ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/identifier-system/rebrickable-id>
+    a skos:Concept, mbo:IdentifierSystem ;
+    dct:source mbos:brickfact-identify, mbos:rebrickable-api ;
+    skos:definition "Part number in the Rebrickable catalogue."@en ;
+    skos:inScheme mbot:identifier-system ;
+    skos:prefLabel "Rebrickable part number"@en, "Rebrickable-Teilenummer"@de ;
+    skos:topConceptOf mbot:identifier-system ;
+    mbo:verification "sourced" .
+
+mbot:part
+    a skos:ConceptScheme ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:description "Bricks, plates, tiles, baseplates and minifigure parts, grouped by category."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    skos:hasTopConcept <https://w3id.org/mbo/thesaurus/part/baseplate>, <https://w3id.org/mbo/thesaurus/part/brick>, <https://w3id.org/mbo/thesaurus/part/minifig-part>, <https://w3id.org/mbo/thesaurus/part/plate>, <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:prefLabel "Bauteile"@de, "Parts"@en .
+
+<https://w3id.org/mbo/thesaurus/part/2431>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "2431" ;
+    skos:prefLabel "Tile 1 x 4"@en ;
+    mbo:brickLinkId "2431" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "2431" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/2456>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "2456" ;
+    skos:prefLabel "Brick 2 x 6"@en ;
+    mbo:brickLinkId "2456" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "2456" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3001>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:brickfact-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3001" ;
+    skos:note "Lego's own name is BRICK 2X4 (brickfact-identify)"@en ;
+    skos:prefLabel "Brick 2 x 4"@en ;
+    mbo:brickLinkId "3001" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3001" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3002>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3002" ;
+    skos:prefLabel "Brick 2 x 3"@en ;
+    mbo:brickLinkId "3002" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3002" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "23.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "3"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3003>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3003" ;
+    skos:prefLabel "Brick 2 x 2"@en ;
+    mbo:brickLinkId "3003" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3003" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3004>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3004" ;
+    skos:prefLabel "Brick 1 x 2"@en ;
+    mbo:brickLinkId "3004" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3004" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3005>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3005" ;
+    skos:note "Geometry from brick-dimensions; part number not confirmed"@en ;
+    skos:prefLabel "Brick 1 x 1"@en ;
+    mbo:brickLinkId "3005" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3005" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "7.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "1"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3006>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3006" ;
+    skos:prefLabel "Brick 2 x 10"@en ;
+    mbo:brickLinkId "3006" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3006" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "79.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "10"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3007>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3007" ;
+    skos:prefLabel "Brick 2 x 8"@en ;
+    mbo:brickLinkId "3007" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3007" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3008>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3008" ;
+    skos:prefLabel "Brick 1 x 8"@en ;
+    mbo:brickLinkId "3008" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3008" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3009>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3009" ;
+    skos:prefLabel "Brick 1 x 6"@en ;
+    mbo:brickLinkId "3009" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3009" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3010>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3010" ;
+    skos:prefLabel "Brick 1 x 4"@en ;
+    mbo:brickLinkId "3010" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3010" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3020>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3020" ;
+    skos:note "Geometry from brick-dimensions (plate 15.8 x 31.8 x 3.2 mm)"@en ;
+    skos:prefLabel "Plate 2 x 4"@en ;
+    mbo:brickLinkId "3020" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3020" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3021>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3021" ;
+    skos:prefLabel "Plate 2 x 3"@en ;
+    mbo:brickLinkId "3021" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3021" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "23.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "3"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3022>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3022" ;
+    skos:prefLabel "Plate 2 x 2"@en ;
+    mbo:brickLinkId "3022" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3022" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3023>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3023" ;
+    skos:prefLabel "Plate 1 x 2"@en ;
+    mbo:brickLinkId "3023" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3023" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3024>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3024" ;
+    skos:prefLabel "Plate 1 x 1"@en ;
+    mbo:brickLinkId "3024" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3024" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "7.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "1"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3031>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3031" ;
+    skos:prefLabel "Plate 4 x 4"@en ;
+    mbo:brickLinkId "3031" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3031" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "31.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "4"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3032>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3032" ;
+    skos:prefLabel "Plate 4 x 6"@en ;
+    mbo:brickLinkId "3032" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3032" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "31.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "4"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3033>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3033" ;
+    skos:prefLabel "Plate 6 x 10"@en ;
+    mbo:brickLinkId "3033" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3033" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "79.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "47.8"^^xsd:decimal ;
+    mbo:studsLength "10"^^xsd:integer ;
+    mbo:studsWidth "6"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3034>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3034" ;
+    skos:prefLabel "Plate 2 x 8"@en ;
+    mbo:brickLinkId "3034" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3034" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3035>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3035" ;
+    skos:prefLabel "Plate 4 x 8"@en ;
+    mbo:brickLinkId "3035" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3035" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "31.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "4"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3036>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3036" ;
+    skos:prefLabel "Plate 6 x 8"@en ;
+    mbo:brickLinkId "3036" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3036" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "47.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "6"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3068b>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3068b" ;
+    skos:prefLabel "Tile 2 x 2"@en ;
+    mbo:brickLinkId "3068b" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3068b" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3069b>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:brickfact-identify ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3069b" ;
+    skos:note "3069b is named by brickfact-identify (Rebrickable listing)"@en ;
+    skos:prefLabel "Tile 1 x 2"@en ;
+    mbo:brickLinkId "3069b" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3069b" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "15.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:rebrickablePartNumber "3069b" ;
+    mbo:studsLength "2"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/3070b>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3070b" ;
+    skos:prefLabel "Tile 1 x 1"@en ;
+    mbo:brickLinkId "3070b" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3070b" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "7.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "1"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3460>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3460" ;
+    skos:prefLabel "Plate 1 x 8"@en ;
+    mbo:brickLinkId "3460" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3460" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "63.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "8"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3622>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/brick> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3622" ;
+    skos:prefLabel "Brick 1 x 3"@en ;
+    mbo:brickLinkId "3622" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "3"^^xsd:integer ;
+    mbo:ldrawId "3622" ;
+    mbo:nominalHeightMm "9.6"^^xsd:decimal ;
+    mbo:nominalLengthMm "23.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "3"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3623>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3623" ;
+    skos:prefLabel "Plate 1 x 3"@en ;
+    mbo:brickLinkId "3623" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3623" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "23.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "3"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3626>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-head> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3626" ;
+    skos:note "Many printed variants exist; designs with suffix letters are separate entries in Rebrickable"@en ;
+    skos:prefLabel "Minifig Head"@en ;
+    mbo:brickLinkId "3626" ;
+    mbo:ldrawId "3626" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3666>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3666" ;
+    skos:prefLabel "Plate 1 x 6"@en ;
+    mbo:brickLinkId "3666" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3666" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3710>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3710" ;
+    skos:prefLabel "Plate 1 x 4"@en ;
+    mbo:brickLinkId "3710" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3710" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3795>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3795" ;
+    skos:prefLabel "Plate 2 x 6"@en ;
+    mbo:brickLinkId "3795" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3795" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3811>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/baseplate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3811" ;
+    skos:note "Thickness varies (brick-dimensions); 256 mm footprint"@en ;
+    skos:prefLabel "Baseplate 32 x 32"@en ;
+    mbo:brickLinkId "3811" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:ldrawId "3811" ;
+    mbo:nominalLengthMm "255.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "255.8"^^xsd:decimal ;
+    mbo:studsLength "32"^^xsd:integer ;
+    mbo:studsWidth "32"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3815>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-hips> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3815" ;
+    skos:prefLabel "Minifig Hips"@en ;
+    mbo:brickLinkId "3815" ;
+    mbo:ldrawId "3815" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3816>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-leg> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3816" ;
+    skos:prefLabel "Minifig Leg Right"@en ;
+    mbo:brickLinkId "3816" ;
+    mbo:ldrawId "3816" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3817>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-leg> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3817" ;
+    skos:prefLabel "Minifig Leg Left"@en ;
+    mbo:brickLinkId "3817" ;
+    mbo:ldrawId "3817" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3818>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-arm> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3818" ;
+    skos:prefLabel "Minifig Arm Right"@en ;
+    mbo:brickLinkId "3818" ;
+    mbo:ldrawId "3818" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3819>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-arm> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3819" ;
+    skos:prefLabel "Minifig Arm Left"@en ;
+    mbo:brickLinkId "3819" ;
+    mbo:ldrawId "3819" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3820>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-hand> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3820" ;
+    skos:prefLabel "Minifig Hand"@en ;
+    mbo:brickLinkId "3820" ;
+    mbo:ldrawId "3820" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3832>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3832" ;
+    skos:prefLabel "Plate 2 x 10"@en ;
+    mbo:brickLinkId "3832" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3832" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "79.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "10"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/3958>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "3958" ;
+    skos:prefLabel "Plate 6 x 6"@en ;
+    mbo:brickLinkId "3958" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "3958" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "47.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "6"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/4073>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brickfact-identify ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/plate> ;
+    skos:inScheme mbot:part ;
+    skos:notation "4073" ;
+    skos:note "LEGO design ID 6141, BrickLink 4073; the transparent version carries design ID 30057 (brickfact-identify). Round footprint: studs_length/width describe the 1 x 1 grid cell only."@en ;
+    skos:prefLabel "Plate Round 1 x 1"@en ;
+    mbo:brickLinkId "4073" ;
+    mbo:designId "6141" ;
+    mbo:hasFeature <https://w3id.org/mbo/thesaurus/feature/stud> ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "7.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:rebrickablePartNumber "4073" ;
+    mbo:studsLength "1"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/63864>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "63864" ;
+    skos:prefLabel "Tile 1 x 3"@en ;
+    mbo:brickLinkId "63864" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "63864" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "23.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "3"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/6636>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "6636" ;
+    skos:prefLabel "Tile 1 x 6"@en ;
+    mbo:brickLinkId "6636" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "6636" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "47.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "7.8"^^xsd:decimal ;
+    mbo:studsLength "6"^^xsd:integer ;
+    mbo:studsWidth "1"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/87079>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:brick-dimensions, mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/tile> ;
+    skos:inScheme mbot:part ;
+    skos:notation "87079" ;
+    skos:prefLabel "Tile 2 x 4"@en ;
+    mbo:brickLinkId "87079" ;
+    mbo:heightInPlates "1"^^xsd:integer ;
+    mbo:ldrawId "87079" ;
+    mbo:nominalHeightMm "3.2"^^xsd:decimal ;
+    mbo:nominalLengthMm "31.8"^^xsd:decimal ;
+    mbo:nominalWidthMm "15.8"^^xsd:decimal ;
+    mbo:studsLength "4"^^xsd:integer ;
+    mbo:studsWidth "2"^^xsd:integer ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/973>
+    a skos:Concept, mbo:ElementDesign ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-torso> ;
+    skos:inScheme mbot:part ;
+    skos:notation "973" ;
+    skos:prefLabel "Minifig Torso"@en ;
+    mbo:brickLinkId "973" ;
+    mbo:ldrawId "973" ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/baseplate>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:brick-dimensions ;
+    skos:definition "Large flat plate on the stud grid, for example 32 x 32 studs = 256 mm."@en ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3811> ;
+    skos:prefLabel "Baseplate"@en, "Grundplatte"@de ;
+    skos:topConceptOf mbot:part ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/brick>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:brickfact-dimensions ;
+    skos:definition "Rectangular building element one brick high: 9.6 mm without the stud, equal to three plates."@en ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/2456>, <https://w3id.org/mbo/thesaurus/part/3001>, <https://w3id.org/mbo/thesaurus/part/3002>, <https://w3id.org/mbo/thesaurus/part/3003>, <https://w3id.org/mbo/thesaurus/part/3004>, <https://w3id.org/mbo/thesaurus/part/3005>, <https://w3id.org/mbo/thesaurus/part/3006>, <https://w3id.org/mbo/thesaurus/part/3007>, <https://w3id.org/mbo/thesaurus/part/3008>, <https://w3id.org/mbo/thesaurus/part/3009>, <https://w3id.org/mbo/thesaurus/part/3010>, <https://w3id.org/mbo/thesaurus/part/3622> ;
+    skos:prefLabel "Brick"@en, "Stein"@de ;
+    skos:topConceptOf mbot:part ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-arm>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3818>, <https://w3id.org/mbo/thesaurus/part/3819> ;
+    skos:prefLabel "Minifigure arm"@en, "Minifigurenarm"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-hand>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3820> ;
+    skos:prefLabel "Minifigure hand"@en, "Minifigurenhand"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-head>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3626> ;
+    skos:prefLabel "Minifigure head"@en, "Minifigurenkopf"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-headwear>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:newelementary-parts ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:note "No part seeded yet."@en ;
+    skos:prefLabel "Minifigure headwear"@en, "Minifigurenkopfbedeckung"@de ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-hips>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3815> ;
+    skos:prefLabel "Minifigure hips"@en, "Minifigurenhüfte"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-leg>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3816>, <https://w3id.org/mbo/thesaurus/part/3817> ;
+    skos:prefLabel "Minifigure leg"@en, "Minifigurenbein"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-part>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:newelementary-parts ;
+    skos:definition "Part of a minifigure: head, torso, hips, legs, arms, hands or headwear."@en ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/minifig-arm>, <https://w3id.org/mbo/thesaurus/part/minifig-hand>, <https://w3id.org/mbo/thesaurus/part/minifig-head>, <https://w3id.org/mbo/thesaurus/part/minifig-headwear>, <https://w3id.org/mbo/thesaurus/part/minifig-hips>, <https://w3id.org/mbo/thesaurus/part/minifig-leg>, <https://w3id.org/mbo/thesaurus/part/minifig-torso> ;
+    skos:note "Category 'Minifig Headwear' appears in the cited parts lists."@en ;
+    skos:prefLabel "Minifigure part"@en, "Minifigurenteil"@de ;
+    skos:topConceptOf mbot:part ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/minifig-torso>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:seed-unverified ;
+    skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-part> ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/973> ;
+    skos:prefLabel "Minifigure torso"@en, "Minifigurenoberkörper"@de ;
+    mbo:verification "seed" .
+
+<https://w3id.org/mbo/thesaurus/part/plate>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:brickfact-dimensions, mbos:brickowl-stud-dimensions ;
+    skos:definition "Rectangular building element one third of a brick high: 3.2 mm."@en ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/3020>, <https://w3id.org/mbo/thesaurus/part/3021>, <https://w3id.org/mbo/thesaurus/part/3022>, <https://w3id.org/mbo/thesaurus/part/3023>, <https://w3id.org/mbo/thesaurus/part/3024>, <https://w3id.org/mbo/thesaurus/part/3031>, <https://w3id.org/mbo/thesaurus/part/3032>, <https://w3id.org/mbo/thesaurus/part/3033>, <https://w3id.org/mbo/thesaurus/part/3034>, <https://w3id.org/mbo/thesaurus/part/3035>, <https://w3id.org/mbo/thesaurus/part/3036>, <https://w3id.org/mbo/thesaurus/part/3460>, <https://w3id.org/mbo/thesaurus/part/3623>, <https://w3id.org/mbo/thesaurus/part/3666>, <https://w3id.org/mbo/thesaurus/part/3710>, <https://w3id.org/mbo/thesaurus/part/3795>, <https://w3id.org/mbo/thesaurus/part/3832>, <https://w3id.org/mbo/thesaurus/part/3958>, <https://w3id.org/mbo/thesaurus/part/4073> ;
+    skos:prefLabel "Plate"@en, "Platte"@de ;
+    skos:topConceptOf mbot:part ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/part/tile>
+    a skos:Concept, mbo:PartCategory ;
+    dct:source mbos:brick-dimensions ;
+    skos:definition "Element of plate height (3.2 mm) used for flat surfaces."@en ;
+    skos:inScheme mbot:part ;
+    skos:narrower <https://w3id.org/mbo/thesaurus/part/2431>, <https://w3id.org/mbo/thesaurus/part/3068b>, <https://w3id.org/mbo/thesaurus/part/3069b>, <https://w3id.org/mbo/thesaurus/part/3070b>, <https://w3id.org/mbo/thesaurus/part/63864>, <https://w3id.org/mbo/thesaurus/part/6636>, <https://w3id.org/mbo/thesaurus/part/87079> ;
+    skos:note "Studless top surface is author knowledge, not stated in the cited source."@en ;
+    skos:prefLabel "Fliese"@de, "Tile"@en ;
+    skos:topConceptOf mbot:part ;
+    mbo:verification "sourced" .
+
+mbot:unit
+    a skos:ConceptScheme ;
+    dct:creator "Research Squirrel Engineers" ;
+    dct:description "Grid and measurement units of the brick system."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    skos:hasTopConcept <https://w3id.org/mbo/thesaurus/unit/brick-height>, <https://w3id.org/mbo/thesaurus/unit/ldu>, <https://w3id.org/mbo/thesaurus/unit/lego-unit>, <https://w3id.org/mbo/thesaurus/unit/part-gap>, <https://w3id.org/mbo/thesaurus/unit/plate-height>, <https://w3id.org/mbo/thesaurus/unit/stud-diameter>, <https://w3id.org/mbo/thesaurus/unit/stud-height>, <https://w3id.org/mbo/thesaurus/unit/stud-pitch> ;
+    skos:prefLabel "Einheiten"@de, "Units"@en .
+
+<https://w3id.org/mbo/thesaurus/unit/brick-height>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brickfact-dimensions, mbos:lugnet-dimensions ;
+    skos:definition "Height of a brick without stud; three plates."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "Measured 9.582 mm (munafo-measured)."@en ;
+    skos:prefLabel "Brick height"@en, "Steinhöhe"@de ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "9.6"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/ldu>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:lugnet-dimensions, mbos:orionrobots-specs ;
+    skos:definition "Unit of the LDraw format; 1 LDU = 0.4 mm. Brick height 24, plate height 8, stud pitch 20."@en ;
+    skos:inScheme mbot:unit ;
+    skos:prefLabel "LDraw unit (LDU)"@en, "LDraw-Einheit"@de ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "0.4"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/lego-unit>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:lugnet-dimensions, mbos:zoeblade-dimensions ;
+    skos:definition "1.6 mm; a stud pitch is 5 LU, a plate 2 LU, a brick 6 LU."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "lugnet-dimensions words this as 'I believe'."@en ;
+    skos:prefLabel "LEGO unit (LU)"@en, "LEGO-Einheit"@de ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "1.6"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/part-gap>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brick-dimensions, mbos:brickfact-dimensions ;
+    skos:definition "Each part is 0.2 mm shorter than its grid, 0.1 mm per side."@en ;
+    skos:inScheme mbot:unit ;
+    skos:prefLabel "Part gap"@en, "Teilefuge"@de ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "0.2"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/plate-height>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brickfact-dimensions, mbos:lugnet-dimensions ;
+    skos:definition "Height of a plate, without stud."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "Measured 3.194 mm (munafo-measured)."@en ;
+    skos:prefLabel "Plate height"@en, "Plattenhöhe"@de ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "3.2"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/stud-diameter>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brickfact-dimensions, mbos:brickowl-stud-dimensions ;
+    skos:definition "Nominal stud diameter."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "Variants 4.5 to 5 mm."@en ;
+    skos:prefLabel "Noppendurchmesser"@de, "Stud diameter"@en ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "4.8"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/stud-height>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brickfact-dimensions, mbos:brickowl-stud-dimensions ;
+    skos:definition "Nominal stud height."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "References give 1.6 to 1.86 mm; brick-dimensions uses 1.8 mm."@en ;
+    skos:prefLabel "Noppenhöhe"@de, "Stud height"@en ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "1.7"^^xsd:decimal ;
+    mbo:verification "sourced" .
+
+<https://w3id.org/mbo/thesaurus/unit/stud-pitch>
+    a skos:Concept, mbo:Unit ;
+    dct:source mbos:brickfact-dimensions, mbos:lugnet-dimensions ;
+    skos:definition "Centre-to-centre spacing of studs; the basic grid unit."@en ;
+    skos:inScheme mbot:unit ;
+    skos:note "Measured 7.985 mm (munafo-measured)."@en ;
+    skos:prefLabel "Noppenabstand"@de, "Stud pitch"@en ;
+    skos:topConceptOf mbot:unit ;
+    mbo:nominalMm "8"^^xsd:decimal ;
+    mbo:verification "sourced" .

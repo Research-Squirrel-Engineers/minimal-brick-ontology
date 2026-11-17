@@ -1,0 +1,33 @@
+Header set Access-Control-Allow-Origin "*"
+Options +FollowSymLinks
+RewriteEngine on
+
+# Target: GitHub Pages of the repository
+# https://research-squirrel-engineers.github.io/minimal-brick-ontology/
+
+# Home
+RewriteRule ^$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/index.html [R=302,L]
+
+# Ontology (terms are fragments: /ontology#Piece)
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^ontology$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/ontology.ttl [R=302,L]
+RewriteRule ^ontology$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/ontology.html [R=302,L]
+
+# Shapes
+RewriteRule ^shapes$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/mbo-shapes.ttl [R=302,L]
+
+# Thesaurus: whole thesaurus, schemes and concepts
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^thesaurus(/.*)?$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.ttl [R=302,L]
+RewriteRule ^thesaurus/?$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.html [R=302,L]
+RewriteRule ^thesaurus/([a-z\-]+)$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.html#$1 [NE,R=302,L]
+RewriteRule ^thesaurus/([a-z\-]+)/(.+)$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.html#$1/$2 [NE,R=302,L]
+
+# Worked example
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^example(/.*)?$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/example-pyramid.ttl [R=302,L]
+RewriteRule ^example(/.*)?$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/index.html [R=302,L]
+
+# Catalogue, datasets, distributions, agent
+RewriteRule ^(catalogue|dataset/.*|distribution/.*)$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/catalogue.ttl [R=302,L]
+RewriteRule ^(source|agent)/.*$ https://research-squirrel-engineers.github.io/minimal-brick-ontology/index.html [R=302,L]

@@ -1,0 +1,33 @@
+scheme,slug,parent,label_en,label_de,definition,value_mm,sources,note
+part,brick,,Brick,Stein,"Rectangular building element one brick high: 9.6 mm without the stud, equal to three plates.",,brickfact-dimensions,
+part,plate,,Plate,Platte,"Rectangular building element one third of a brick high: 3.2 mm.",,brickfact-dimensions|brickowl-stud-dimensions,
+part,tile,,Tile,Fliese,"Element of plate height (3.2 mm) used for flat surfaces.",,brick-dimensions,"Studless top surface is author knowledge, not stated in the cited source."
+part,baseplate,,Baseplate,Grundplatte,"Large flat plate on the stud grid, for example 32 x 32 studs = 256 mm.",,brick-dimensions,
+part,minifig-part,,Minifigure part,Minifigurenteil,"Part of a minifigure: head, torso, hips, legs, arms, hands or headwear.",,newelementary-parts,"Category 'Minifig Headwear' appears in the cited parts lists."
+part,minifig-head,minifig-part,Minifigure head,Minifigurenkopf,,,seed-unverified,
+part,minifig-torso,minifig-part,Minifigure torso,Minifigurenoberkörper,,,seed-unverified,
+part,minifig-hips,minifig-part,Minifigure hips,Minifigurenhüfte,,,seed-unverified,
+part,minifig-leg,minifig-part,Minifigure leg,Minifigurenbein,,,seed-unverified,
+part,minifig-arm,minifig-part,Minifigure arm,Minifigurenarm,,,seed-unverified,
+part,minifig-hand,minifig-part,Minifigure hand,Minifigurenhand,,,seed-unverified,
+part,minifig-headwear,minifig-part,Minifigure headwear,Minifigurenkopfbedeckung,,,newelementary-parts,"No part seeded yet."
+feature,stud,,Stud,Noppe,"Cylindrical protrusion on top of an element; nominal diameter 4.8 mm and height about 1.7 mm.",,brickfact-dimensions|brickowl-stud-dimensions,"Variant values: Ø 4.5 to 5 mm, height 1.6 to 1.86 mm (orionrobots-specs, diyhpl-dimensions)."
+feature,underside-tube,,Underside tube,Unterseitenröhre,"Cylinder on the underside of a brick; the source gives an outer diameter of about 6.3 to 6.6 mm.",,diyhpl-dimensions,
+feature,hollow-underside,,Hollow underside,Hohle Unterseite,"Cavity enclosed by the walls on the underside of a brick.",,diyhpl-dimensions,
+unit,stud-pitch,,Stud pitch,Noppenabstand,"Centre-to-centre spacing of studs; the basic grid unit.",8,brickfact-dimensions|lugnet-dimensions,"Measured 7.985 mm (munafo-measured)."
+unit,plate-height,,Plate height,Plattenhöhe,"Height of a plate, without stud.",3.2,brickfact-dimensions|lugnet-dimensions,"Measured 3.194 mm (munafo-measured)."
+unit,brick-height,,Brick height,Steinhöhe,"Height of a brick without stud; three plates.",9.6,brickfact-dimensions|lugnet-dimensions,"Measured 9.582 mm (munafo-measured)."
+unit,stud-diameter,,Stud diameter,Noppendurchmesser,"Nominal stud diameter.",4.8,brickfact-dimensions|brickowl-stud-dimensions,"Variants 4.5 to 5 mm."
+unit,stud-height,,Stud height,Noppenhöhe,"Nominal stud height.",1.7,brickfact-dimensions|brickowl-stud-dimensions,"References give 1.6 to 1.86 mm; brick-dimensions uses 1.8 mm."
+unit,part-gap,,Part gap,Teilefuge,"Each part is 0.2 mm shorter than its grid, 0.1 mm per side.",0.2,brickfact-dimensions|brick-dimensions,
+unit,ldu,,LDraw unit (LDU),LDraw-Einheit,"Unit of the LDraw format; 1 LDU = 0.4 mm. Brick height 24, plate height 8, stud pitch 20.",0.4,orionrobots-specs|lugnet-dimensions,
+unit,lego-unit,,LEGO unit (LU),LEGO-Einheit,"1.6 mm; a stud pitch is 5 LU, a plate 2 LU, a brick 6 LU.",1.6,zoeblade-dimensions|lugnet-dimensions,"lugnet-dimensions words this as 'I believe'."
+identifier-system,design-id,,Design ID,Design-ID,"Number moulded on the piece; it does not encode the colour.",,brickfact-identify,
+identifier-system,element-id,,Element ID,Element-ID,"Identifies a design in one specific colour; the same design in four colours has four element IDs.",,newelementary-parts|brickfact-identify,
+identifier-system,bricklink-id,,BrickLink part number,BrickLink-Teilenummer,"Part number in the BrickLink catalogue; may differ from the LEGO design ID.",,brickfact-identify,
+identifier-system,rebrickable-id,,Rebrickable part number,Rebrickable-Teilenummer,"Part number in the Rebrickable catalogue.",,rebrickable-api|brickfact-identify,
+identifier-system,ldraw-id,,LDraw part number,LDraw-Teilenummer,"Part number in the LDraw library.",,ldraw-forum-numbers,
+colour,group-solid,,Solid,Deckend,"Opaque colours.",,zoeblade-colour,
+colour,group-transparent,,Transparent,Transparent,"Translucent colours; Rebrickable marks them with is_trans and a Trans- prefix.",,zoeblade-colour|rebrickable-api,
+colour,group-metallic,,Metallic and pearl,Metallic und Perlmutt,"Colours whose name contains Metallic, Pearl, Chrome, Flat Silver or Flat Dark Gold (rule of this repository).",,seed-unverified,"Classification rule is derived by this repository, not by LEGO."
+colour,group-special,,Special effect,Spezialeffekt,"Colours whose name contains Glitter, Speckle, Milky, Glow, Satin, Opal or Neon (rule of this repository).",,seed-unverified,"Classification rule is derived by this repository, not by LEGO."

@@ -1,0 +1,1294 @@
+@prefix crmdig: <http://www.cidoc-crm.org/extensions/crmdig/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix mbo: <https://w3id.org/mbo/ontology#> .
+@prefix mbos: <https://w3id.org/mbo/source/> .
+@prefix mbot: <https://w3id.org/mbo/thesaurus/> .
+@prefix mbox: <https://w3id.org/mbo/example/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/mbo/example/element/3001-white>
+    a mbo:Element ;
+    rdfs:label "Brick 2 x 4, white"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/white> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3001> .
+
+<https://w3id.org/mbo/example/element/3003-white>
+    a mbo:Element ;
+    rdfs:label "Brick 2 x 2, white"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/white> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3003> .
+
+<https://w3id.org/mbo/example/element/3005-white>
+    a mbo:Element ;
+    rdfs:label "Brick 1 x 1, white"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/white> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3005> .
+
+<https://w3id.org/mbo/example/element/3626-yellow>
+    a mbo:Element ;
+    rdfs:label "Minifig Head, yellow"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/yellow> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3626> .
+
+<https://w3id.org/mbo/example/element/3815-black>
+    a mbo:Element ;
+    rdfs:label "Minifig Hips, black"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/black> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3815> .
+
+<https://w3id.org/mbo/example/element/3816-black>
+    a mbo:Element ;
+    rdfs:label "Minifig Leg Right, black"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/black> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3816> .
+
+<https://w3id.org/mbo/example/element/3817-black>
+    a mbo:Element ;
+    rdfs:label "Minifig Leg Left, black"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/black> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3817> .
+
+<https://w3id.org/mbo/example/element/3818-blue>
+    a mbo:Element ;
+    rdfs:label "Minifig Arm Right, blue"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/blue> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3818> .
+
+<https://w3id.org/mbo/example/element/3819-blue>
+    a mbo:Element ;
+    rdfs:label "Minifig Arm Left, blue"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/blue> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3819> .
+
+<https://w3id.org/mbo/example/element/3820-yellow>
+    a mbo:Element ;
+    rdfs:label "Minifig Hand, yellow"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/yellow> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/3820> .
+
+<https://w3id.org/mbo/example/element/973-blue>
+    a mbo:Element ;
+    rdfs:label "Minifig Torso, blue"@en ;
+    mbo:hasColour <https://w3id.org/mbo/thesaurus/colour/blue> ;
+    mbo:hasDesign <https://w3id.org/mbo/thesaurus/part/973> .
+
+mbox:pyramid-white
+    a mbo:Build ;
+    dct:description "Illustrative example. Layer sizes follow the author's reconstruction; the tiling of single bricks is a deterministic greedy layout, not the measured one."@en ;
+    dct:source mbos:user-chat-pyramid ;
+    rdfs:label "Stepped white pyramid with column"@en ;
+    mbo:hasLayer <https://w3id.org/mbo/example/pyramid-white/layer/0>, <https://w3id.org/mbo/example/pyramid-white/layer/1>, <https://w3id.org/mbo/example/pyramid-white/layer/10>, <https://w3id.org/mbo/example/pyramid-white/layer/11>, <https://w3id.org/mbo/example/pyramid-white/layer/12>, <https://w3id.org/mbo/example/pyramid-white/layer/13>, <https://w3id.org/mbo/example/pyramid-white/layer/2>, <https://w3id.org/mbo/example/pyramid-white/layer/3>, <https://w3id.org/mbo/example/pyramid-white/layer/4>, <https://w3id.org/mbo/example/pyramid-white/layer/5>, <https://w3id.org/mbo/example/pyramid-white/layer/6>, <https://w3id.org/mbo/example/pyramid-white/layer/7>, <https://w3id.org/mbo/example/pyramid-white/layer/8>, <https://w3id.org/mbo/example/pyramid-white/layer/9> .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/0>
+    a mbo:Layer ;
+    rdfs:label "Layer 0"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/1>, <https://w3id.org/mbo/example/pyramid-white/piece/10>, <https://w3id.org/mbo/example/pyramid-white/piece/11>, <https://w3id.org/mbo/example/pyramid-white/piece/12>, <https://w3id.org/mbo/example/pyramid-white/piece/13>, <https://w3id.org/mbo/example/pyramid-white/piece/14>, <https://w3id.org/mbo/example/pyramid-white/piece/15>, <https://w3id.org/mbo/example/pyramid-white/piece/16>, <https://w3id.org/mbo/example/pyramid-white/piece/17>, <https://w3id.org/mbo/example/pyramid-white/piece/18>, <https://w3id.org/mbo/example/pyramid-white/piece/19>, <https://w3id.org/mbo/example/pyramid-white/piece/2>, <https://w3id.org/mbo/example/pyramid-white/piece/20>, <https://w3id.org/mbo/example/pyramid-white/piece/21>, <https://w3id.org/mbo/example/pyramid-white/piece/22>, <https://w3id.org/mbo/example/pyramid-white/piece/23>, <https://w3id.org/mbo/example/pyramid-white/piece/24>, <https://w3id.org/mbo/example/pyramid-white/piece/25>, <https://w3id.org/mbo/example/pyramid-white/piece/26>, <https://w3id.org/mbo/example/pyramid-white/piece/27>, <https://w3id.org/mbo/example/pyramid-white/piece/28>, <https://w3id.org/mbo/example/pyramid-white/piece/29>, <https://w3id.org/mbo/example/pyramid-white/piece/3>, <https://w3id.org/mbo/example/pyramid-white/piece/30>, <https://w3id.org/mbo/example/pyramid-white/piece/31>, <https://w3id.org/mbo/example/pyramid-white/piece/32>, <https://w3id.org/mbo/example/pyramid-white/piece/33>, <https://w3id.org/mbo/example/pyramid-white/piece/34>, <https://w3id.org/mbo/example/pyramid-white/piece/35>, <https://w3id.org/mbo/example/pyramid-white/piece/36>, <https://w3id.org/mbo/example/pyramid-white/piece/4>, <https://w3id.org/mbo/example/pyramid-white/piece/5>, <https://w3id.org/mbo/example/pyramid-white/piece/6>, <https://w3id.org/mbo/example/pyramid-white/piece/7>, <https://w3id.org/mbo/example/pyramid-white/piece/8>, <https://w3id.org/mbo/example/pyramid-white/piece/9> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "0"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/1>
+    a mbo:Layer ;
+    rdfs:label "Layer 1"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/37>, <https://w3id.org/mbo/example/pyramid-white/piece/38>, <https://w3id.org/mbo/example/pyramid-white/piece/39>, <https://w3id.org/mbo/example/pyramid-white/piece/40>, <https://w3id.org/mbo/example/pyramid-white/piece/41>, <https://w3id.org/mbo/example/pyramid-white/piece/42>, <https://w3id.org/mbo/example/pyramid-white/piece/43>, <https://w3id.org/mbo/example/pyramid-white/piece/44>, <https://w3id.org/mbo/example/pyramid-white/piece/45>, <https://w3id.org/mbo/example/pyramid-white/piece/46>, <https://w3id.org/mbo/example/pyramid-white/piece/47>, <https://w3id.org/mbo/example/pyramid-white/piece/48>, <https://w3id.org/mbo/example/pyramid-white/piece/49>, <https://w3id.org/mbo/example/pyramid-white/piece/50>, <https://w3id.org/mbo/example/pyramid-white/piece/51>, <https://w3id.org/mbo/example/pyramid-white/piece/52>, <https://w3id.org/mbo/example/pyramid-white/piece/53>, <https://w3id.org/mbo/example/pyramid-white/piece/54>, <https://w3id.org/mbo/example/pyramid-white/piece/55>, <https://w3id.org/mbo/example/pyramid-white/piece/56>, <https://w3id.org/mbo/example/pyramid-white/piece/57>, <https://w3id.org/mbo/example/pyramid-white/piece/58>, <https://w3id.org/mbo/example/pyramid-white/piece/59>, <https://w3id.org/mbo/example/pyramid-white/piece/60> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "1"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/10>
+    a mbo:Layer ;
+    rdfs:label "Layer 10"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/115> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "10"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/11>
+    a mbo:Layer ;
+    rdfs:label "Layer 11"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/116> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "11"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/12>
+    a mbo:Layer ;
+    rdfs:label "Layer 12"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/117> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "12"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/13>
+    a mbo:Layer ;
+    rdfs:label "Layer 13"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/118> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "13"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/2>
+    a mbo:Layer ;
+    rdfs:label "Layer 2"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/61>, <https://w3id.org/mbo/example/pyramid-white/piece/62>, <https://w3id.org/mbo/example/pyramid-white/piece/63>, <https://w3id.org/mbo/example/pyramid-white/piece/64>, <https://w3id.org/mbo/example/pyramid-white/piece/65>, <https://w3id.org/mbo/example/pyramid-white/piece/66>, <https://w3id.org/mbo/example/pyramid-white/piece/67>, <https://w3id.org/mbo/example/pyramid-white/piece/68>, <https://w3id.org/mbo/example/pyramid-white/piece/69>, <https://w3id.org/mbo/example/pyramid-white/piece/70>, <https://w3id.org/mbo/example/pyramid-white/piece/71>, <https://w3id.org/mbo/example/pyramid-white/piece/72>, <https://w3id.org/mbo/example/pyramid-white/piece/73>, <https://w3id.org/mbo/example/pyramid-white/piece/74>, <https://w3id.org/mbo/example/pyramid-white/piece/75>, <https://w3id.org/mbo/example/pyramid-white/piece/76>, <https://w3id.org/mbo/example/pyramid-white/piece/77>, <https://w3id.org/mbo/example/pyramid-white/piece/78>, <https://w3id.org/mbo/example/pyramid-white/piece/79>, <https://w3id.org/mbo/example/pyramid-white/piece/80>, <https://w3id.org/mbo/example/pyramid-white/piece/81> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "2"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/3>
+    a mbo:Layer ;
+    rdfs:label "Layer 3"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/82>, <https://w3id.org/mbo/example/pyramid-white/piece/83>, <https://w3id.org/mbo/example/pyramid-white/piece/84>, <https://w3id.org/mbo/example/pyramid-white/piece/85>, <https://w3id.org/mbo/example/pyramid-white/piece/86>, <https://w3id.org/mbo/example/pyramid-white/piece/87>, <https://w3id.org/mbo/example/pyramid-white/piece/88>, <https://w3id.org/mbo/example/pyramid-white/piece/89>, <https://w3id.org/mbo/example/pyramid-white/piece/90>, <https://w3id.org/mbo/example/pyramid-white/piece/91>, <https://w3id.org/mbo/example/pyramid-white/piece/92>, <https://w3id.org/mbo/example/pyramid-white/piece/93> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "3"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/4>
+    a mbo:Layer ;
+    rdfs:label "Layer 4"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/100>, <https://w3id.org/mbo/example/pyramid-white/piece/101>, <https://w3id.org/mbo/example/pyramid-white/piece/102>, <https://w3id.org/mbo/example/pyramid-white/piece/103>, <https://w3id.org/mbo/example/pyramid-white/piece/94>, <https://w3id.org/mbo/example/pyramid-white/piece/95>, <https://w3id.org/mbo/example/pyramid-white/piece/96>, <https://w3id.org/mbo/example/pyramid-white/piece/97>, <https://w3id.org/mbo/example/pyramid-white/piece/98>, <https://w3id.org/mbo/example/pyramid-white/piece/99> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "4"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/5>
+    a mbo:Layer ;
+    rdfs:label "Layer 5"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/104>, <https://w3id.org/mbo/example/pyramid-white/piece/105>, <https://w3id.org/mbo/example/pyramid-white/piece/106>, <https://w3id.org/mbo/example/pyramid-white/piece/107> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "5"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/6>
+    a mbo:Layer ;
+    rdfs:label "Layer 6"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/108>, <https://w3id.org/mbo/example/pyramid-white/piece/109>, <https://w3id.org/mbo/example/pyramid-white/piece/110> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "6"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/7>
+    a mbo:Layer ;
+    rdfs:label "Layer 7"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/111>, <https://w3id.org/mbo/example/pyramid-white/piece/112> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "7"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/8>
+    a mbo:Layer ;
+    rdfs:label "Layer 8"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/113> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "8"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/layer/9>
+    a mbo:Layer ;
+    rdfs:label "Layer 9"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/piece/114> ;
+    mbo:isLayerOf mbox:pyramid-white ;
+    mbo:layerIndex "9"^^xsd:integer .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1>
+    a mbo:Minifigure ;
+    rdfs:label "Illustrative minifigure"@en ;
+    mbo:hasPiece <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/1>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/2>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/3>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/4>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/5>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/6>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/7>, <https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/8> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/1>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3626-yellow> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/2>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/973-blue> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/3>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3815-black> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/4>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3816-black> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/5>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3817-black> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/6>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3818-blue> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/7>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3819-blue> .
+
+<https://w3id.org/mbo/example/pyramid-white/minifigure-1/piece/8>
+    a mbo:Piece ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3820-yellow> .
+
+<https://w3id.org/mbo/example/pyramid-white/model>
+    a mbo:BuildModel ;
+    rdfs:label "Brick model of Stepped white pyramid with column"@en ;
+    mbo:describesBuild mbox:pyramid-white ;
+    mbo:sceneScale "0.6667"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/1>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "0"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/10>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/100>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/101>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/102>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/103>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/104>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "15"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/5> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/105>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "15"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/5> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/106>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "15"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/5> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/107>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "15"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/5> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/108>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "18"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/6> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/109>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "18"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/6> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/11>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/110>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "18"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/6> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/111>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "21"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/7> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/112>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "21"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/7> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/113>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "24"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/8> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/114>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "27"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/9> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3005-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/115>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "30"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/10> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3005-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/116>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "33"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/11> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3005-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/117>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "36"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/12> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3005-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/118>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "39"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/13> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3005-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/12>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/13>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/14>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/15>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/16>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/17>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/18>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/19>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/2>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "0"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/20>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/21>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/22>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/23>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/24>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/25>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/26>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/27>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/28>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/29>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/3>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "0"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/30>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/31>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/32>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/33>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "16"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/34>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "16"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/35>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "16"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/36>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "16"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/37>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "1"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/38>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "1"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/39>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "1"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/4>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "0"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/40>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "3"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/41>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "3"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/42>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "3"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/43>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/44>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/45>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/46>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/47>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/48>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/49>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/5>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/50>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/51>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/52>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/53>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/54>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/55>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "13"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/56>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "13"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/57>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "13"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/58>
+    a mbo:Piece ;
+    mbo:gridX "1"^^xsd:integer ;
+    mbo:gridY "15"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/59>
+    a mbo:Piece ;
+    mbo:gridX "5"^^xsd:integer ;
+    mbo:gridY "15"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/6>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/60>
+    a mbo:Piece ;
+    mbo:gridX "9"^^xsd:integer ;
+    mbo:gridY "15"^^xsd:integer ;
+    mbo:gridZ "3"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/1> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/61>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/62>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/63>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/64>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/65>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/66>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/67>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/68>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/69>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/7>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/70>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/71>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/72>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/73>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/74>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/75>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "10"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/76>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/77>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/78>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "12"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/79>
+    a mbo:Piece ;
+    mbo:gridX "2"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/8>
+    a mbo:Piece ;
+    mbo:gridX "12"^^xsd:integer ;
+    mbo:gridY "2"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/80>
+    a mbo:Piece ;
+    mbo:gridX "6"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/81>
+    a mbo:Piece ;
+    mbo:gridX "10"^^xsd:integer ;
+    mbo:gridY "14"^^xsd:integer ;
+    mbo:gridZ "6"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/2> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/82>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "3"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/83>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "3"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/84>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/85>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "5"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/86>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/87>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "7"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/88>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/89>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "9"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/9>
+    a mbo:Piece ;
+    mbo:gridX "0"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "0"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/0> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/90>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/91>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "11"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/92>
+    a mbo:Piece ;
+    mbo:gridX "3"^^xsd:integer ;
+    mbo:gridY "13"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/93>
+    a mbo:Piece ;
+    mbo:gridX "7"^^xsd:integer ;
+    mbo:gridY "13"^^xsd:integer ;
+    mbo:gridZ "9"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/3> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/94>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/95>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "4"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/96>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/97>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "6"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/98>
+    a mbo:Piece ;
+    mbo:gridX "4"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3001-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/piece/99>
+    a mbo:Piece ;
+    mbo:gridX "8"^^xsd:integer ;
+    mbo:gridY "8"^^xsd:integer ;
+    mbo:gridZ "12"^^xsd:integer ;
+    mbo:inLayer <https://w3id.org/mbo/example/pyramid-white/layer/4> ;
+    mbo:instanceOfElement <https://w3id.org/mbo/example/element/3003-white> ;
+    mbo:rotationDegrees "0"^^xsd:decimal .
+
+<https://w3id.org/mbo/example/pyramid-white/reconstruction>
+    a mbo:ReconstructionProcess ;
+    crmdig:L21_used_as_derivation_source <https://w3id.org/mbo/example/pyramid-white/scan> ;
+    crmdig:L22_created_derivative <https://w3id.org/mbo/example/pyramid-white/model> ;
+    rdfs:label "Reconstruction from scan"@en .
+
+<https://w3id.org/mbo/example/pyramid-white/scan>
+    a crmdig:D1_Digital_Object ;
+    rdfs:label "KIRI Engine structure-from-motion scan (not included)"@en .

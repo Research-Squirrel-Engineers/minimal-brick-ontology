@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this vocabulary, please cite it using the metadata below."
+title: "Minimal Brick Ontology (MBO): an OWL ontology and SKOS thesaurus for building bricks"
+abstract: >-
+  A small OWL ontology aligned to CIDOC CRM, CRMba and CRMdig, with a SKOS thesaurus of
+  colours, part designs, features and units, SHACL shapes, a DCAT-AP catalogue and a
+  click-through documentation site.
+type: software
+authors:
+  - family-names: Thiery
+    given-names: Florian
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: insert ORCID
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-18"
+repository-code: "https://github.com/Research-Squirrel-Engineers/minimal-brick-ontology"
+url: "https://research-squirrel-engineers.github.io/minimal-brick-ontology/"
+# doi: "10.5281/zenodo.XXXXXXX"  # TODO: add Zenodo DOI once minted
+keywords:
+  - ontology
+  - SKOS
+  - CIDOC CRM
+  - CRMba
+  - CRMdig
+  - DCAT-AP
+  - SHACL
+  - building bricks

@@ -1,0 +1,4 @@
+# rdflib 7.6.0 and pyshacl 0.40.2 are what the committed products were built with.
+rdflib>=7.0
+# pyshacl runs the SHACL gate (SPARQL constraints are used in shapes/mbo-shapes.ttl).
+pyshacl>=0.26

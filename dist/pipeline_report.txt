@@ -1,0 +1,28 @@
+== thesaurus
+  colours: 24 Rebrickable rows matched seed colours, 249 added
+  parts: 38 seed parts confirmed in Rebrickable, 2626 added, 17007 printed variants skipped
+  parts: 8 seed parts not found in parts.csv: 3626, 3815, 3816, 3817, 3818, 3819, 3820, 973
+  thesaurus: 32531 triples, colour=278, feature=3, identifier-system=5, part=2698, unit=8
+== example
+  example: 14 layers, 118 pieces, 1098 triples
+== catalogue
+  catalogue: 126 triples, 4 datasets
+== validate
+  parse   ontology             336 triples  (ontology/mbo.ttl)
+  parse   thesaurus          32531 triples  (dist/thesaurus.ttl)
+  parse   example             1098 triples  (dist/example-pyramid.ttl)
+  parse   catalogue            126 triples  (dist/catalogue.ttl)
+  parse   mbo-shapes           185 triples  (shapes/mbo-shapes.ttl)
+  parse   dcat-ap-subset        67 triples  (shapes/dcat-ap-subset-shapes.ttl)
+  closure ontology declares 49 terms; thesaurus and example use 47; undeclared: 0
+  shacl   MBO shapes on thesaurus + example: conforms=True
+  shacl   DCAT-AP subset on catalogue: conforms=True, warnings=0
+  note    the DCAT-AP check is a hand-written subset; run the official DCAT-AP shapes before submitting to a portal
+  RESULT  OK
+== diagram
+  diagram: docs/assets/ontology-overview.svg, .mmd
+== docs
+    File "C:\git\minimal-brick-ontology\py\step_docs.py", line 178
+      data_tag = f'<script>window.MBO_DATA={raw.replace("</", "<\\/")};</script>'
+                                                                                 ^
+  SyntaxError: f-string expression part cannot include a backslash

@@ -1,0 +1,949 @@
+{
+ "assemblies": [
+  {
+   "id": "minifigure-1",
+   "label": "Illustrative minifigure",
+   "pieces": [
+    {
+     "colour": "Yellow",
+     "part": "3626"
+    },
+    {
+     "colour": "Blue",
+     "part": "973"
+    },
+    {
+     "colour": "Black",
+     "part": "3815"
+    },
+    {
+     "colour": "Black",
+     "part": "3816"
+    },
+    {
+     "colour": "Black",
+     "part": "3817"
+    },
+    {
+     "colour": "Blue",
+     "part": "3818"
+    },
+    {
+     "colour": "Blue",
+     "part": "3819"
+    },
+    {
+     "colour": "Yellow",
+     "part": "3820"
+    }
+   ],
+   "type": "Minifigure"
+  }
+ ],
+ "description": "Illustrative example. Layer sizes follow the author's reconstruction; the tiling of single bricks is a deterministic greedy layout, not the measured one.",
+ "id": "pyramid-white",
+ "label": "Stepped white pyramid with column",
+ "layers": [
+  {
+   "index": 0,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 0
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 0
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 0
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 0
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 0,
+     "y": 16
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 16
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 8,
+     "y": 16
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 12,
+     "y": 16
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 1
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 1
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 1
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 3
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 3
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 3
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 11
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 11
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 11
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 13
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 13
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 13
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 1,
+     "y": 15
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 15
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 9,
+     "y": 15
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 2
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 2,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 6,
+     "y": 14
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 10,
+     "y": 14
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 3
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 3
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 11
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 11
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 3,
+     "y": 13
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 7,
+     "y": 13
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 8,
+     "y": 4
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 8,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 8,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 8,
+     "y": 10
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 4,
+     "y": 12
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 8,
+     "y": 12
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 5
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 9
+    },
+    {
+     "colour": "White",
+     "part": "3001",
+     "rot": 0,
+     "x": 5,
+     "y": 11
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 6
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 10
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 7
+    },
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 9
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3003",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3005",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3005",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3005",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3005",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "pieces": [
+    {
+     "colour": "White",
+     "part": "3005",
+     "rot": 0,
+     "x": 6,
+     "y": 8
+    }
+   ]
+  }
+ ],
+ "scale": "0.6667",
+ "scan": {
+  "label": "KIRI Engine structure-from-motion scan (not included)"
+ },
+ "source": "user-chat-pyramid"
+}

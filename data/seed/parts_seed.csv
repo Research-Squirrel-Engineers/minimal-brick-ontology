@@ -1,0 +1,48 @@
+part_num,name,category,studs_length,studs_width,height_plates,design_id,bricklink_id,ldraw_id,id_status,sources,note
+3005,Brick 1 x 1,brick,1,1,3,,3005,3005,seed,brick-dimensions|seed-unverified,"Geometry from brick-dimensions; part number not confirmed"
+3004,Brick 1 x 2,brick,2,1,3,,3004,3004,seed,brick-dimensions|seed-unverified,
+3622,Brick 1 x 3,brick,3,1,3,,3622,3622,seed,seed-unverified,
+3010,Brick 1 x 4,brick,4,1,3,,3010,3010,seed,brick-dimensions|seed-unverified,
+3009,Brick 1 x 6,brick,6,1,3,,3009,3009,seed,seed-unverified,
+3008,Brick 1 x 8,brick,8,1,3,,3008,3008,seed,seed-unverified,
+3003,Brick 2 x 2,brick,2,2,3,,3003,3003,seed,brick-dimensions|seed-unverified,
+3002,Brick 2 x 3,brick,3,2,3,,3002,3002,seed,seed-unverified,
+3001,Brick 2 x 4,brick,4,2,3,,3001,3001,seed,brickfact-dimensions|brick-dimensions|seed-unverified,"Lego's own name is BRICK 2X4 (brickfact-identify)"
+2456,Brick 2 x 6,brick,6,2,3,,2456,2456,seed,brick-dimensions|seed-unverified,
+3007,Brick 2 x 8,brick,8,2,3,,3007,3007,seed,seed-unverified,
+3006,Brick 2 x 10,brick,10,2,3,,3006,3006,seed,seed-unverified,
+3024,Plate 1 x 1,plate,1,1,1,,3024,3024,seed,seed-unverified,
+3023,Plate 1 x 2,plate,2,1,1,,3023,3023,seed,seed-unverified,
+3623,Plate 1 x 3,plate,3,1,1,,3623,3623,seed,seed-unverified,
+3710,Plate 1 x 4,plate,4,1,1,,3710,3710,seed,seed-unverified,
+3666,Plate 1 x 6,plate,6,1,1,,3666,3666,seed,seed-unverified,
+3460,Plate 1 x 8,plate,8,1,1,,3460,3460,seed,seed-unverified,
+3022,Plate 2 x 2,plate,2,2,1,,3022,3022,seed,seed-unverified,
+3021,Plate 2 x 3,plate,3,2,1,,3021,3021,seed,seed-unverified,
+3020,Plate 2 x 4,plate,4,2,1,,3020,3020,seed,brick-dimensions|seed-unverified,"Geometry from brick-dimensions (plate 15.8 x 31.8 x 3.2 mm)"
+3795,Plate 2 x 6,plate,6,2,1,,3795,3795,seed,seed-unverified,
+3034,Plate 2 x 8,plate,8,2,1,,3034,3034,seed,seed-unverified,
+3832,Plate 2 x 10,plate,10,2,1,,3832,3832,seed,seed-unverified,
+3031,Plate 4 x 4,plate,4,4,1,,3031,3031,seed,seed-unverified,
+3032,Plate 4 x 6,plate,6,4,1,,3032,3032,seed,seed-unverified,
+3035,Plate 4 x 8,plate,8,4,1,,3035,3035,seed,seed-unverified,
+3958,Plate 6 x 6,plate,6,6,1,,3958,3958,seed,seed-unverified,
+3036,Plate 6 x 8,plate,8,6,1,,3036,3036,seed,seed-unverified,
+3033,Plate 6 x 10,plate,10,6,1,,3033,3033,seed,seed-unverified,
+4073,Plate Round 1 x 1,plate,1,1,1,6141,4073,,sourced,brickfact-identify,"LEGO design ID 6141, BrickLink 4073; the transparent version carries design ID 30057 (brickfact-identify). Round footprint: studs_length/width describe the 1 x 1 grid cell only."
+3070b,Tile 1 x 1,tile,1,1,1,,3070b,3070b,seed,brick-dimensions|seed-unverified,
+3069b,Tile 1 x 2,tile,2,1,1,,3069b,3069b,sourced,brickfact-identify|brick-dimensions,"3069b is named by brickfact-identify (Rebrickable listing)"
+63864,Tile 1 x 3,tile,3,1,1,,63864,63864,seed,seed-unverified,
+2431,Tile 1 x 4,tile,4,1,1,,2431,2431,seed,seed-unverified,
+6636,Tile 1 x 6,tile,6,1,1,,6636,6636,seed,seed-unverified,
+3068b,Tile 2 x 2,tile,2,2,1,,3068b,3068b,seed,brick-dimensions|seed-unverified,
+87079,Tile 2 x 4,tile,4,2,1,,87079,87079,seed,brick-dimensions|seed-unverified,
+3811,Baseplate 32 x 32,baseplate,32,32,,,3811,3811,seed,brick-dimensions|seed-unverified,"Thickness varies (brick-dimensions); 256 mm footprint"
+3626,Minifig Head,minifig-head,,,,,3626,3626,seed,seed-unverified,"Many printed variants exist; designs with suffix letters are separate entries in Rebrickable"
+973,Minifig Torso,minifig-torso,,,,,973,973,seed,seed-unverified,
+3815,Minifig Hips,minifig-hips,,,,,3815,3815,seed,seed-unverified,
+3816,Minifig Leg Right,minifig-leg,,,,,3816,3816,seed,seed-unverified,
+3817,Minifig Leg Left,minifig-leg,,,,,3817,3817,seed,seed-unverified,
+3818,Minifig Arm Right,minifig-arm,,,,,3818,3818,seed,seed-unverified,
+3819,Minifig Arm Left,minifig-arm,,,,,3819,3819,seed,seed-unverified,
+3820,Minifig Hand,minifig-hand,,,,,3820,3820,seed,seed-unverified,

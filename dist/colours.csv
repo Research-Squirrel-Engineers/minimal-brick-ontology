@@ -1,0 +1,275 @@
+slug,name,hex,hex_status,finish,hue_family,lego_id,rebrickable_id,gobricks_id,verification,iri
+aqua,Aqua,B3D7D1,rebrickable,solid,Turquoise,,118,,rebrickable,https://w3id.org/mbo/thesaurus/colour/aqua
+black,Black,05131D,rebrickable,solid,Black,26,0,080,sourced,https://w3id.org/mbo/thesaurus/colour/black
+blue,Blue,0055BF,rebrickable,solid,Blue,23,1,050,sourced,https://w3id.org/mbo/thesaurus/colour/blue
+blue-violet,Blue Violet,A3A9FF,rebrickable,solid,Blue,,1147,,rebrickable,https://w3id.org/mbo/thesaurus/colour/blue-violet
+bright-green,Bright Green,4B9F4A,rebrickable,solid,Green,,10,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-green
+bright-light-blue,Bright Light Blue,9FC3E9,rebrickable,solid,Blue,,212,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-light-blue
+bright-light-orange,Bright Light Orange,F8BB3D,rebrickable,solid,Orange,,191,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-light-orange
+bright-light-yellow,Bright Light Yellow,FFF03A,rebrickable,solid,Yellow,,226,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-light-yellow
+bright-pink,Bright Pink,E4ADC8,rebrickable,solid,Pink,,29,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-pink
+bright-reddish-orange,Bright Reddish Orange,EE5434,rebrickable,solid,Red,,1068,,rebrickable,https://w3id.org/mbo/thesaurus/colour/bright-reddish-orange
+bright-violet,Bright Violet,,none,solid,,104,,,sourced,https://w3id.org/mbo/thesaurus/colour/bright-violet
+brown,Brown,583927,rebrickable,solid,Brown,,6,,rebrickable,https://w3id.org/mbo/thesaurus/colour/brown
+chrome-antique-brass,Chrome Antique Brass,645A4C,rebrickable,metallic,Brown,,60,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-antique-brass
+chrome-black,Chrome Black,1B2A34,rebrickable,metallic,Blue,,64,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-black
+chrome-blue,Chrome Blue,6C96BF,rebrickable,metallic,Blue,,61,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-blue
+chrome-gold,Chrome Gold,BBA53D,rebrickable,metallic,Yellow,,334,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-gold
+chrome-green,Chrome Green,3CB371,rebrickable,metallic,Green,,62,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-green
+chrome-pink,Chrome Pink,AA4D8E,rebrickable,metallic,Pink,,63,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-pink
+chrome-red,Chrome Red,CE3021,rebrickable,metallic,Red,,1144,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-red
+chrome-silver,Chrome Silver,E0E0E0,rebrickable,metallic,Grey,,383,,rebrickable,https://w3id.org/mbo/thesaurus/colour/chrome-silver
+clikits-pink,Clikits Pink,FE78B0,rebrickable,solid,Pink,,1082,,rebrickable,https://w3id.org/mbo/thesaurus/colour/clikits-pink
+clikits-yellow,Clikits Yellow,FFCF0B,rebrickable,solid,Yellow,,1100,,rebrickable,https://w3id.org/mbo/thesaurus/colour/clikits-yellow
+copper,Copper,AE7A59,rebrickable,solid,Orange,,134,,rebrickable,https://w3id.org/mbo/thesaurus/colour/copper
+coral,Coral,FF698F,rebrickable,solid,Pink,,1050,,rebrickable,https://w3id.org/mbo/thesaurus/colour/coral
+curry,Curry,DD982E,rebrickable,solid,Orange,,1066,,rebrickable,https://w3id.org/mbo/thesaurus/colour/curry
+dark-azure,Dark Azure,078BC9,rebrickable,solid,Turquoise,,321,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-azure
+dark-blue,Dark Blue,0A3463,rebrickable,solid,Blue,140,272,055,sourced,https://w3id.org/mbo/thesaurus/colour/dark-blue
+dark-blue-violet,Dark Blue-Violet,2032B0,rebrickable,solid,Blue,,23,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-blue-violet
+dark-bluish-gray,Dark Bluish Gray,6C6E68,rebrickable,solid,Grey,199,72,072,sourced,https://w3id.org/mbo/thesaurus/colour/dark-bluish-gray
+dark-brown,Dark Brown,352100,rebrickable,solid,Brown,,308,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-brown
+dark-gray,Dark Gray,6D6E5C,rebrickable,solid,Grey,,8,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-gray
+dark-green,Dark Green,184632,rebrickable,solid,Green,,288,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-green
+dark-nougat,Dark Nougat,AD6140,rebrickable,solid,Orange,,1067,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-nougat
+dark-olive-green,Dark Olive Green,5D5C36,rebrickable,solid,Yellow,,1142,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-olive-green
+dark-orange,Dark Orange,A95500,rebrickable,solid,Brown,,484,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-orange
+dark-pink,Dark Pink,C870A0,rebrickable,solid,Pink,,5,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-pink
+dark-purple,Dark Purple,3F3691,rebrickable,solid,Blue,,85,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-purple
+dark-red,Dark Red,720E0F,rebrickable,solid,Red,154,320,014,sourced,https://w3id.org/mbo/thesaurus/colour/dark-red
+dark-tan,Dark Tan,958A73,rebrickable,solid,Orange,138,28,034,sourced,https://w3id.org/mbo/thesaurus/colour/dark-tan
+dark-turquoise,Dark Turquoise,008F9B,rebrickable,solid,Turquoise,,3,,rebrickable,https://w3id.org/mbo/thesaurus/colour/dark-turquoise
+duplo-blue,Duplo Blue,009ECE,rebrickable,solid,Turquoise,,1074,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-blue
+duplo-dark-purple,Duplo Dark Purple,5F27AA,rebrickable,solid,Purple,,1101,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-dark-purple
+duplo-light-green,Duplo Light Green,60BA76,rebrickable,solid,Green,,1079,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-light-green
+duplo-lime,Duplo Lime,FFF230,rebrickable,solid,Yellow,,1076,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-lime
+duplo-medium-blue,Duplo Medium Blue,3E95B6,rebrickable,solid,Turquoise,,1075,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-medium-blue
+duplo-medium-green,Duplo Medium Green,468A5F,rebrickable,solid,Green,,1078,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-medium-green
+duplo-pink,Duplo Pink,FF879C,rebrickable,solid,Red,,1087,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-pink
+duplo-turquoise,Duplo Turquoise,3FB69E,rebrickable,solid,Turquoise,,1090,,rebrickable,https://w3id.org/mbo/thesaurus/colour/duplo-turquoise
+earth-orange,Earth Orange,FA9C1C,rebrickable,solid,Orange,,366,,rebrickable,https://w3id.org/mbo/thesaurus/colour/earth-orange
+fabuland-brown,Fabuland Brown,B67B50,rebrickable,solid,Orange,,450,,rebrickable,https://w3id.org/mbo/thesaurus/colour/fabuland-brown
+fabuland-lime,Fabuland Lime,78FC78,rebrickable,solid,Green,,1077,,rebrickable,https://w3id.org/mbo/thesaurus/colour/fabuland-lime
+fabuland-orange,Fabuland Orange,EF9121,rebrickable,solid,Orange,,1012,,rebrickable,https://w3id.org/mbo/thesaurus/colour/fabuland-orange
+fabuland-red,Fabuland Red,FF8014,rebrickable,solid,Orange,,1064,,rebrickable,https://w3id.org/mbo/thesaurus/colour/fabuland-red
+flat-dark-gold,Flat Dark Gold,B48455,rebrickable,metallic,Orange,,178,,rebrickable,https://w3id.org/mbo/thesaurus/colour/flat-dark-gold
+flat-silver,Flat Silver,898788,rebrickable,metallic,Grey,,179,,rebrickable,https://w3id.org/mbo/thesaurus/colour/flat-silver
+glitter-milky-white,Glitter Milky White,FFFFFF,rebrickable,special,White,,1143,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-milky-white
+glitter-trans-bright-green,Glitter Trans-Bright Green,D9E4A7,rebrickable,transparent,Green,,1096,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-bright-green
+glitter-trans-clear,Glitter Trans-Clear,FFFFFF,rebrickable,transparent,White,,117,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-clear
+glitter-trans-dark-pink,Glitter Trans-Dark Pink,DF6695,rebrickable,transparent,Pink,,114,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-dark-pink
+glitter-trans-green,Glitter Trans-Green,84B68D,rebrickable,transparent,Green,,1098,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-green
+glitter-trans-light-blue,Glitter Trans-Light Blue,68BCC5,rebrickable,transparent,Turquoise,,1003,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-light-blue
+glitter-trans-medium-purple,Glitter Trans-Medium Purple,8D73B3,rebrickable,transparent,Purple,,1097,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-medium-purple
+glitter-trans-neon-green,Glitter Trans-Neon Green,C0F500,rebrickable,transparent,Green,,1002,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-neon-green
+glitter-trans-orange,Glitter Trans-Orange,F08F1C,rebrickable,transparent,Orange,,1052,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-orange
+glitter-trans-pink,Glitter Trans-Pink,E4ADC8,rebrickable,transparent,Pink,,1099,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-pink
+glitter-trans-purple,Glitter Trans-Purple,A5A5CB,rebrickable,transparent,Blue,,129,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glitter-trans-purple
+glow-in-dark-opaque,Glow In Dark Opaque,D4D5C9,rebrickable,special,Yellow,,21,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glow-in-dark-opaque
+glow-in-dark-trans,Glow In Dark Trans,BDC6AD,rebrickable,transparent,Green,,294,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glow-in-dark-trans
+glow-in-dark-white,Glow in Dark White,D9D9D9,rebrickable,special,Grey,,1000,,rebrickable,https://w3id.org/mbo/thesaurus/colour/glow-in-dark-white
+green,Green,237841,rebrickable,solid,Green,28,2,040,sourced,https://w3id.org/mbo/thesaurus/colour/green
+ho-aqua,HO Aqua,B3D7D1,rebrickable,solid,Turquoise,,1104,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-aqua
+ho-azure,HO Azure,1591CB,rebrickable,solid,Turquoise,,1105,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-azure
+ho-blue-gray,HO Blue-gray,354E5A,rebrickable,solid,Turquoise,,1106,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-blue-gray
+ho-cyan,HO Cyan,5B98B3,rebrickable,solid,Turquoise,,1107,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-cyan
+ho-dark-aqua,HO Dark Aqua,A7DCCF,rebrickable,solid,Turquoise,,1108,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-aqua
+ho-dark-blue,HO Dark Blue,0A3463,rebrickable,solid,Blue,,1109,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-blue
+ho-dark-gray,HO Dark Gray,6D6E5C,rebrickable,solid,Grey,,1110,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-gray
+ho-dark-green,HO Dark Green,184632,rebrickable,solid,Green,,1111,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-green
+ho-dark-lime,HO Dark Lime,B2B955,rebrickable,solid,Yellow,,1112,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-lime
+ho-dark-red,HO Dark Red,631314,rebrickable,solid,Red,,1113,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-red
+ho-dark-sand-green,HO Dark Sand Green,627A62,rebrickable,solid,Grey,,1114,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-sand-green
+ho-dark-turquoise,HO Dark Turquoise,10929D,rebrickable,solid,Turquoise,,1115,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-dark-turquoise
+ho-earth-orange,HO Earth Orange,BB771B,rebrickable,solid,Orange,,1116,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-earth-orange
+ho-gold,HO Gold,B4A774,rebrickable,solid,Yellow,,1117,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-gold
+ho-light-aqua,HO Light Aqua,A3D1C0,rebrickable,solid,Green,,1118,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-light-aqua
+ho-light-brown,HO Light Brown,965336,rebrickable,solid,Orange,,1119,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-light-brown
+ho-light-gold,HO Light Gold,CDC298,rebrickable,solid,Tan,,1120,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-light-gold
+ho-light-tan,HO Light Tan,F9F1C7,rebrickable,solid,Yellow,,1121,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-light-tan
+ho-light-yellow,HO Light Yellow,F5FAB7,rebrickable,solid,Yellow,,1122,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-light-yellow
+ho-medium-blue,HO Medium Blue,7396C8,rebrickable,solid,Blue,,1123,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-medium-blue
+ho-medium-red,HO Medium Red,C01111,rebrickable,solid,Red,,1124,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-medium-red
+ho-metallic-blue,HO Metallic Blue,0D4763,rebrickable,metallic,Turquoise,,1125,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-metallic-blue
+ho-metallic-dark-gray,HO Metallic Dark Gray,5E5E5E,rebrickable,metallic,Grey,,1126,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-metallic-dark-gray
+ho-metallic-green,HO Metallic Green,879867,rebrickable,metallic,Green,,1127,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-metallic-green
+ho-metallic-sand-blue,HO Metallic Sand Blue,5F7D8C,rebrickable,metallic,Blue,,1128,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-metallic-sand-blue
+ho-olive-green,HO Olive Green,9B9A5A,rebrickable,solid,Yellow,,1129,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-olive-green
+ho-rose,HO Rose,D06262,rebrickable,solid,Red,,1130,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-rose
+ho-sand-blue,HO Sand Blue,6E8AA6,rebrickable,solid,Blue,,1131,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-sand-blue
+ho-sand-green,HO Sand Green,A0BCAC,rebrickable,solid,Green,,1132,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-sand-green
+ho-tan,HO Tan,E4CD9E,rebrickable,solid,Tan,,1133,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-tan
+ho-titanium,HO Titanium,616161,rebrickable,solid,Grey,,1134,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ho-titanium
+lavender,Lavender,E1D5ED,rebrickable,solid,Purple,,31,,rebrickable,https://w3id.org/mbo/thesaurus/colour/lavender
+light-aqua,Light Aqua,ADC3C0,rebrickable,solid,Turquoise,,323,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-aqua
+light-blue,Light Blue,B4D2E3,rebrickable,solid,Blue,,9,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-blue
+light-bluish-gray,Light Bluish Gray,A0A5A9,rebrickable,solid,Grey,194,71,071,sourced,https://w3id.org/mbo/thesaurus/colour/light-bluish-gray
+light-brown,Light Brown,7C503A,rebrickable,solid,Orange,,86,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-brown
+light-gray,Light Gray,9BA19D,rebrickable,solid,Grey,2,7,,sourced,https://w3id.org/mbo/thesaurus/colour/light-gray
+light-green,Light Green,C2DAB8,rebrickable,solid,Green,,17,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-green
+light-lilac,Light Lilac,9195CA,rebrickable,solid,Blue,,1093,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-lilac
+light-lime,Light Lime,D9E4A7,rebrickable,solid,Green,,120,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-lime
+light-nougat,Light Nougat,F6D7B3,rebrickable,solid,Orange,283,78,032,sourced,https://w3id.org/mbo/thesaurus/colour/light-nougat
+light-orange,Light Orange,F9BA61,rebrickable,solid,Orange,,125,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-orange
+light-pink,Light Pink,FECCCF,rebrickable,solid,Red,,77,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-pink
+light-purple,Light Purple,CD6298,rebrickable,solid,Pink,,69,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-purple
+light-salmon,Light Salmon,FEBABD,rebrickable,solid,Red,,100,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-salmon
+light-tan,Light Tan,F3C988,rebrickable,solid,Orange,,1080,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-tan
+light-turquoise,Light Turquoise,55A5AF,rebrickable,solid,Turquoise,,11,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-turquoise
+light-violet,Light Violet,C9CAE2,rebrickable,solid,Blue,,20,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-violet
+light-yellow,Light Yellow,FBE696,rebrickable,solid,Yellow,,18,,rebrickable,https://w3id.org/mbo/thesaurus/colour/light-yellow
+lime,Lime,BBE90B,rebrickable,solid,Green,119,27,042,sourced,https://w3id.org/mbo/thesaurus/colour/lime
+maersk-blue,Maersk Blue,3592C3,rebrickable,solid,Blue,,313,,rebrickable,https://w3id.org/mbo/thesaurus/colour/maersk-blue
+magenta,Magenta,923978,rebrickable,solid,Pink,,26,,rebrickable,https://w3id.org/mbo/thesaurus/colour/magenta
+medium-azure,Medium Azure,36AEBF,rebrickable,solid,Turquoise,,322,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-azure
+medium-blue,Medium Blue,5A93DB,rebrickable,solid,Blue,,73,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-blue
+medium-bluish-violet,Medium Bluish Violet,6874CA,rebrickable,solid,Blue,,112,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-bluish-violet
+medium-brown,Medium Brown,755945,rebrickable,solid,Orange,,1088,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-brown
+medium-dark-pink,Medium Dark Pink,F785B1,rebrickable,solid,Pink,,351,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-dark-pink
+medium-green,Medium Green,73DCA1,rebrickable,solid,Green,,74,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-green
+medium-lavender,Medium Lavender,AC78BA,rebrickable,solid,Purple,,30,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-lavender
+medium-lime,Medium Lime,C7D23C,rebrickable,solid,Yellow,,115,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-lime
+medium-nougat,Medium Nougat,AA7D55,rebrickable,solid,Orange,,84,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-nougat
+medium-orange,Medium Orange,FFA70B,rebrickable,solid,Orange,,462,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-orange
+medium-violet,Medium Violet,9391E4,rebrickable,solid,Blue,,1001,,rebrickable,https://w3id.org/mbo/thesaurus/colour/medium-violet
+metal,Metal,A5ADB4,rebrickable,solid,Grey,,1135,,rebrickable,https://w3id.org/mbo/thesaurus/colour/metal
+metallic-copper,Metallic Copper,764D3B,rebrickable,metallic,Brown,,1092,,rebrickable,https://w3id.org/mbo/thesaurus/colour/metallic-copper
+metallic-gold,Metallic Gold,DBAC34,rebrickable,metallic,Orange,,82,,rebrickable,https://w3id.org/mbo/thesaurus/colour/metallic-gold
+metallic-green,Metallic Green,899B5F,rebrickable,metallic,Green,,81,,rebrickable,https://w3id.org/mbo/thesaurus/colour/metallic-green
+metallic-silver,Metallic Silver,A5A9B4,rebrickable,metallic,Grey,,80,,rebrickable,https://w3id.org/mbo/thesaurus/colour/metallic-silver
+milky-white,Milky White,FFFFFF,rebrickable,special,White,,79,,rebrickable,https://w3id.org/mbo/thesaurus/colour/milky-white
+modulex-aqua-green,Modulex Aqua Green,27867E,rebrickable,solid,Turquoise,,1032,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-aqua-green
+modulex-black,Modulex Black,4D4C52,rebrickable,solid,Grey,,1018,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-black
+modulex-brown,Modulex Brown,907450,rebrickable,solid,Orange,,1021,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-brown
+modulex-buff,Modulex Buff,DEC69C,rebrickable,solid,Tan,,1022,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-buff
+modulex-charcoal-gray,Modulex Charcoal Gray,595D60,rebrickable,solid,Grey,,1016,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-charcoal-gray
+modulex-clear,Modulex Clear,FFFFFF,rebrickable,solid,White,,1039,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-clear
+modulex-foil-dark-blue,Modulex Foil Dark Blue,0057A6,rebrickable,solid,Blue,,1044,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-dark-blue
+modulex-foil-dark-gray,Modulex Foil Dark Gray,595D60,rebrickable,solid,Grey,,1040,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-dark-gray
+modulex-foil-dark-green,Modulex Foil Dark Green,006400,rebrickable,solid,Green,,1042,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-dark-green
+modulex-foil-light-blue,Modulex Foil Light Blue,68AECE,rebrickable,solid,Turquoise,,1045,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-light-blue
+modulex-foil-light-gray,Modulex Foil Light Gray,9C9C9C,rebrickable,solid,Grey,,1041,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-light-gray
+modulex-foil-light-green,Modulex Foil Light Green,7DB538,rebrickable,solid,Green,,1043,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-light-green
+modulex-foil-orange,Modulex Foil Orange,F7AD63,rebrickable,solid,Orange,,1049,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-orange
+modulex-foil-red,Modulex Foil Red,8B0000,rebrickable,solid,Red,,1047,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-red
+modulex-foil-violet,Modulex Foil Violet,4B0082,rebrickable,solid,Purple,,1046,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-violet
+modulex-foil-yellow,Modulex Foil Yellow,FED557,rebrickable,solid,Yellow,,1048,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-foil-yellow
+modulex-lemon,Modulex Lemon,BDC618,rebrickable,solid,Yellow,,1029,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-lemon
+modulex-light-bluish-gray,Modulex Light Bluish Gray,AFB5C7,rebrickable,solid,Blue,,1014,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-light-bluish-gray
+modulex-light-gray,Modulex Light Gray,9C9C9C,rebrickable,solid,Grey,,1015,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-light-gray
+modulex-light-orange,Modulex Light Orange,F7AD63,rebrickable,solid,Orange,,1026,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-light-orange
+modulex-light-yellow,Modulex Light Yellow,FFE371,rebrickable,solid,Yellow,,1027,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-light-yellow
+modulex-medium-blue,Modulex Medium Blue,61AFFF,rebrickable,solid,Blue,,1035,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-medium-blue
+modulex-ochre-yellow,Modulex Ochre Yellow,FED557,rebrickable,solid,Yellow,,1028,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-ochre-yellow
+modulex-olive-green,Modulex Olive Green,7C9051,rebrickable,solid,Green,,1031,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-olive-green
+modulex-orange,Modulex Orange,F47B30,rebrickable,solid,Orange,,1025,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-orange
+modulex-pastel-blue,Modulex Pastel Blue,68AECE,rebrickable,solid,Turquoise,,1036,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-pastel-blue
+modulex-pastel-green,Modulex Pastel Green,7DB538,rebrickable,solid,Green,,1030,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-pastel-green
+modulex-pink,Modulex Pink,F785B1,rebrickable,solid,Pink,,1038,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-pink
+modulex-pink-red,Modulex Pink Red,F45C40,rebrickable,solid,Red,,1024,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-pink-red
+modulex-red,Modulex Red,B52C20,rebrickable,solid,Red,,1023,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-red
+modulex-teal-blue,Modulex Teal Blue,467083,rebrickable,solid,Turquoise,,1033,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-teal-blue
+modulex-terracotta,Modulex Terracotta,5C5030,rebrickable,solid,Brown,,1020,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-terracotta
+modulex-tile-blue,Modulex Tile Blue,0057A6,rebrickable,solid,Blue,,1034,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-tile-blue
+modulex-tile-brown,Modulex Tile Brown,330000,rebrickable,solid,Red,,1019,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-tile-brown
+modulex-tile-gray,Modulex Tile Gray,6B5A5A,rebrickable,solid,Grey,,1017,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-tile-gray
+modulex-violet,Modulex Violet,BD7D85,rebrickable,solid,Red,,1037,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-violet
+modulex-white,Modulex White,F4F4F4,rebrickable,solid,White,,1013,,rebrickable,https://w3id.org/mbo/thesaurus/colour/modulex-white
+neon-green,Neon Green,D2FC43,rebrickable,special,Green,,1141,,rebrickable,https://w3id.org/mbo/thesaurus/colour/neon-green
+neon-orange,Neon Orange,EC4612,rebrickable,special,Red,,1140,,rebrickable,https://w3id.org/mbo/thesaurus/colour/neon-orange
+nougat,Nougat,D09168,rebrickable,solid,Orange,18,92,,sourced,https://w3id.org/mbo/thesaurus/colour/nougat
+ochre-yellow,Ochre Yellow,DD9E47,rebrickable,solid,Orange,,1145,,rebrickable,https://w3id.org/mbo/thesaurus/colour/ochre-yellow
+olive-green,Olive Green,9B9A5A,rebrickable,solid,Yellow,,326,,rebrickable,https://w3id.org/mbo/thesaurus/colour/olive-green
+opal-trans-bright-green,Opal Trans-Bright Green,84B68D,rebrickable,transparent,Green,,1060,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-bright-green
+opal-trans-brown,Opal Trans-Brown,583927,rebrickable,transparent,Brown,,1056,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-brown
+opal-trans-clear,Opal Trans-Clear,FCFCFC,rebrickable,transparent,White,,1055,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-clear
+opal-trans-dark-blue,Opal Trans-Dark Blue,0020A0,rebrickable,transparent,Blue,,1061,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-dark-blue
+opal-trans-dark-pink,Opal Trans-Dark Pink,CE1D9B,rebrickable,transparent,Pink,,1054,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-dark-pink
+opal-trans-light-blue,Opal Trans-Light Blue,68BCC5,rebrickable,transparent,Turquoise,,1053,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-light-blue
+opal-trans-purple,Opal Trans-Purple,8320B7,rebrickable,transparent,Purple,,1059,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-purple
+opal-trans-yellow,Opal Trans-Yellow,F5CD2F,rebrickable,transparent,Yellow,,1139,,rebrickable,https://w3id.org/mbo/thesaurus/colour/opal-trans-yellow
+orange,Orange,FE8A18,rebrickable,solid,Orange,106,25,021,sourced,https://w3id.org/mbo/thesaurus/colour/orange
+pastel-blue,Pastel Blue,5AC4DA,rebrickable,solid,Turquoise,,1051,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pastel-blue
+pearl-black,Pearl Black,0A1327,rebrickable,metallic,Black,,1073,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-black
+pearl-blue,Pearl Blue,0059A3,rebrickable,metallic,Blue,,1070,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-blue
+pearl-brown,Pearl Brown,57392C,rebrickable,metallic,Brown,,1072,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-brown
+pearl-copper,Pearl Copper,B46A00,rebrickable,metallic,Orange,,1063,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-copper
+pearl-dark-gray,Pearl Dark Gray,575857,rebrickable,metallic,Grey,,148,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-dark-gray
+pearl-gold,Pearl Gold,AA7F2E,rebrickable,metallic,Orange,,297,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-gold
+pearl-green,Pearl Green,008E3C,rebrickable,metallic,Green,,1071,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-green
+pearl-light-gold,Pearl Light Gold,DCBC81,rebrickable,metallic,Tan,,142,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-light-gold
+pearl-light-gray,Pearl Light Gray,9CA3A8,rebrickable,metallic,Grey,,135,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-light-gray
+pearl-lime,Pearl Lime,6A7944,rebrickable,metallic,Green,,1086,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-lime
+pearl-red,Pearl Red,D60026,rebrickable,metallic,Red,,1069,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-red
+pearl-sand-blue,Pearl Sand Blue,7988A1,rebrickable,metallic,Blue,,137,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-sand-blue
+pearl-titanium,Pearl Titanium,3E3C39,rebrickable,metallic,Grey,,1103,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-titanium
+pearl-very-light-gray,Pearl Very Light Gray,ABADAC,rebrickable,metallic,Grey,,150,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-very-light-gray
+pearl-white,Pearl White,F2F3F2,rebrickable,metallic,White,,183,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pearl-white
+pink,Pink,FC97AC,rebrickable,solid,Red,,13,,rebrickable,https://w3id.org/mbo/thesaurus/colour/pink
+purple,Purple,81007B,rebrickable,solid,Pink,,22,,rebrickable,https://w3id.org/mbo/thesaurus/colour/purple
+red,Red,C91A09,rebrickable,solid,Red,21,4,010,sourced,https://w3id.org/mbo/thesaurus/colour/red
+reddish-brown,Reddish Brown,582A12,rebrickable,solid,Brown,192,70,081,sourced,https://w3id.org/mbo/thesaurus/colour/reddish-brown
+reddish-gold,Reddish Gold,AC8247,rebrickable,solid,Orange,,1065,,rebrickable,https://w3id.org/mbo/thesaurus/colour/reddish-gold
+reddish-lilac,Reddish Lilac,8E5597,rebrickable,solid,Pink,,1007,,rebrickable,https://w3id.org/mbo/thesaurus/colour/reddish-lilac
+reddish-orange,Reddish Orange,CA4C0B,rebrickable,solid,Orange,,1136,,rebrickable,https://w3id.org/mbo/thesaurus/colour/reddish-orange
+royal-blue,Royal Blue,4C61DB,rebrickable,solid,Blue,,89,,rebrickable,https://w3id.org/mbo/thesaurus/colour/royal-blue
+rust,Rust,B31004,rebrickable,solid,Red,,216,,rebrickable,https://w3id.org/mbo/thesaurus/colour/rust
+rust-orange,Rust Orange,872B17,rebrickable,solid,Brown,,1081,,rebrickable,https://w3id.org/mbo/thesaurus/colour/rust-orange
+salmon,Salmon,F2705E,rebrickable,solid,Red,,12,,rebrickable,https://w3id.org/mbo/thesaurus/colour/salmon
+sand-blue,Sand Blue,6074A1,rebrickable,solid,Blue,,379,,rebrickable,https://w3id.org/mbo/thesaurus/colour/sand-blue
+sand-green,Sand Green,A0BCAC,rebrickable,solid,Green,151,378,048,sourced,https://w3id.org/mbo/thesaurus/colour/sand-green
+sand-purple,Sand Purple,845E84,rebrickable,solid,Pink,,373,,rebrickable,https://w3id.org/mbo/thesaurus/colour/sand-purple
+sand-red,Sand Red,D67572,rebrickable,solid,Red,,335,,rebrickable,https://w3id.org/mbo/thesaurus/colour/sand-red
+sienna-brown,Sienna Brown,915C3C,rebrickable,solid,Orange,,1137,,rebrickable,https://w3id.org/mbo/thesaurus/colour/sienna-brown
+sky-blue,Sky Blue,7DBFDD,rebrickable,solid,Turquoise,,232,,rebrickable,https://w3id.org/mbo/thesaurus/colour/sky-blue
+speckle-black-copper,Speckle Black-Copper,05131D,rebrickable,special,Black,,75,,rebrickable,https://w3id.org/mbo/thesaurus/colour/speckle-black-copper
+speckle-black-gold,Speckle Black-Gold,05131D,rebrickable,special,Black,,133,,rebrickable,https://w3id.org/mbo/thesaurus/colour/speckle-black-gold
+speckle-black-silver,Speckle Black-Silver,05131D,rebrickable,special,Black,,132,,rebrickable,https://w3id.org/mbo/thesaurus/colour/speckle-black-silver
+speckle-dbgray-silver,Speckle DBGray-Silver,6C6E68,rebrickable,special,Grey,,76,,rebrickable,https://w3id.org/mbo/thesaurus/colour/speckle-dbgray-silver
+tan,Tan,E4CD9E,rebrickable,solid,Tan,5,19,031,sourced,https://w3id.org/mbo/thesaurus/colour/tan
+trans-black,Trans-Black,635F52,rebrickable,transparent,Grey,,1095,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-black
+trans-black-ir-lens,Trans-Black IR Lens,635F52,rebrickable,transparent,Grey,,32,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-black-ir-lens
+trans-bright-green,Trans-Bright Green,D9E4A7,rebrickable,transparent,Green,,35,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-bright-green
+trans-brown,Trans-Brown,635F52,rebrickable,transparent,Grey,,40,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-brown
+trans-clear,Trans-Clear,FCFCFC,rebrickable,transparent,White,40,47,180,sourced,https://w3id.org/mbo/thesaurus/colour/trans-clear
+trans-dark-blue,Trans-Dark Blue,0020A0,rebrickable,transparent,Blue,43,33,150,sourced,https://w3id.org/mbo/thesaurus/colour/trans-dark-blue
+trans-dark-pink,Trans-Dark Pink,DF6695,rebrickable,transparent,Pink,,45,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-dark-pink
+trans-fire-yellow,Trans-Fire Yellow,FBE890,rebrickable,transparent,Yellow,,1005,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-fire-yellow
+trans-flame-yellowish-orange,Trans-Flame Yellowish Orange,FCB76D,rebrickable,transparent,Orange,,1004,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-flame-yellowish-orange
+trans-green,Trans-Green,84B68D,rebrickable,transparent,Green,48,34,140,sourced,https://w3id.org/mbo/thesaurus/colour/trans-green
+trans-light-blue,Trans-Light Blue,AEEFEC,rebrickable,transparent,Turquoise,,41,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-light-blue
+trans-light-bright-green,Trans-Light Bright Green,C9E788,rebrickable,transparent,Green,,1057,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-light-bright-green
+trans-light-green,Trans-Light Green,94E5AB,rebrickable,transparent,Green,,1058,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-light-green
+trans-light-purple,Trans-Light Purple,96709F,rebrickable,transparent,Purple,,236,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-light-purple
+trans-light-royal-blue,Trans-Light Royal Blue,B4D4F7,rebrickable,transparent,Blue,,1006,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-light-royal-blue
+trans-medium-blue,Trans-Medium Blue,CFE2F7,rebrickable,transparent,Blue,,143,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-medium-blue
+trans-medium-purple,Trans-Medium Purple,8D73B3,rebrickable,transparent,Purple,,1094,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-medium-purple
+trans-neon-green,Trans-Neon Green,F8F184,rebrickable,transparent,Yellow,,42,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-neon-green
+trans-neon-orange,Trans-Neon Orange,FF800D,rebrickable,transparent,Orange,,57,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-neon-orange
+trans-neon-red,Trans-Neon Red,FF0040,rebrickable,transparent,Pink,,1102,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-neon-red
+trans-neon-yellow,Trans-Neon Yellow,DAB000,rebrickable,transparent,Yellow,,54,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-neon-yellow
+trans-orange,Trans-Orange,F08F1C,rebrickable,transparent,Orange,,182,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-orange
+trans-pink,Trans-Pink,E4ADC8,rebrickable,transparent,Pink,,230,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-pink
+trans-purple,Trans-Purple,A5A5CB,rebrickable,transparent,Blue,,52,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-purple
+trans-red,Trans-Red,C91A09,rebrickable,transparent,Red,41,36,110,sourced,https://w3id.org/mbo/thesaurus/colour/trans-red
+trans-very-lt-blue,Trans-Very Lt Blue,C1DFF0,rebrickable,transparent,Blue,,43,,rebrickable,https://w3id.org/mbo/thesaurus/colour/trans-very-lt-blue
+trans-yellow,Trans-Yellow,F5CD2F,rebrickable,transparent,Yellow,44,46,130,sourced,https://w3id.org/mbo/thesaurus/colour/trans-yellow
+two-tone-copper,Two-tone Copper,945148,rebrickable,solid,Red,,1083,,rebrickable,https://w3id.org/mbo/thesaurus/colour/two-tone-copper
+two-tone-gold,Two-tone Gold,AB673A,rebrickable,solid,Orange,,1084,,rebrickable,https://w3id.org/mbo/thesaurus/colour/two-tone-gold
+two-tone-silver,Two-tone Silver,737271,rebrickable,solid,Grey,,1085,,rebrickable,https://w3id.org/mbo/thesaurus/colour/two-tone-silver
+umber-brown,Umber Brown,5E3F33,rebrickable,solid,Brown,,1138,,rebrickable,https://w3id.org/mbo/thesaurus/colour/umber-brown
+very-light-bluish-gray,Very Light Bluish Gray,E6E3E0,rebrickable,solid,Grey,,151,,rebrickable,https://w3id.org/mbo/thesaurus/colour/very-light-bluish-gray
+very-light-gray,Very Light Gray,E6E3DA,rebrickable,solid,Tan,,503,,rebrickable,https://w3id.org/mbo/thesaurus/colour/very-light-gray
+very-light-orange,Very Light Orange,F3CF9B,rebrickable,solid,Orange,,68,,rebrickable,https://w3id.org/mbo/thesaurus/colour/very-light-orange
+vibrant-yellow,Vibrant Yellow,EBD800,rebrickable,solid,Yellow,,1062,,rebrickable,https://w3id.org/mbo/thesaurus/colour/vibrant-yellow
+vintage-blue,Vintage Blue,039CBD,rebrickable,solid,Turquoise,,1008,,rebrickable,https://w3id.org/mbo/thesaurus/colour/vintage-blue
+vintage-green,Vintage Green,1E601E,rebrickable,solid,Green,,1009,,rebrickable,https://w3id.org/mbo/thesaurus/colour/vintage-green
+vintage-red,Vintage Red,CA1F08,rebrickable,solid,Red,,1010,,rebrickable,https://w3id.org/mbo/thesaurus/colour/vintage-red
+vintage-yellow,Vintage Yellow,F3C305,rebrickable,solid,Yellow,,1011,,rebrickable,https://w3id.org/mbo/thesaurus/colour/vintage-yellow
+violet,Violet,4354A3,rebrickable,solid,Blue,,110,,rebrickable,https://w3id.org/mbo/thesaurus/colour/violet
+warm-pink,Warm Pink,F6B7BF,rebrickable,solid,Red,,1146,,rebrickable,https://w3id.org/mbo/thesaurus/colour/warm-pink
+warm-tan,Warm Tan,CCA373,rebrickable,solid,Tan,,1089,,rebrickable,https://w3id.org/mbo/thesaurus/colour/warm-tan
+warm-yellowish-orange,Warm Yellowish Orange,FFCB78,rebrickable,solid,Orange,,1091,,rebrickable,https://w3id.org/mbo/thesaurus/colour/warm-yellowish-orange
+white,White,FFFFFF,rebrickable,solid,White,1,15,090,sourced,https://w3id.org/mbo/thesaurus/colour/white
+yellow,Yellow,F2CD37,rebrickable,solid,Yellow,24,14,030,sourced,https://w3id.org/mbo/thesaurus/colour/yellow
+yellowish-green,Yellowish Green,DFEEA5,rebrickable,solid,Green,,158,,rebrickable,https://w3id.org/mbo/thesaurus/colour/yellowish-green

@@ -1,0 +1,89 @@
+@prefix mbo: <https://w3id.org/mbo/ontology#> .
+@prefix mbosh: <https://w3id.org/mbo/shapes#> .
+@prefix crmdig: <http://www.cidoc-crm.org/extensions/crmdig/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# SHACL shapes for the Minimal Brick Ontology, its thesaurus and build descriptions.
+# Validate the union of dist/thesaurus.ttl and dist/example-pyramid.ttl against this file.
+
+<https://w3id.org/mbo/shapes> a owl:Ontology ;
+    dct:title "MBO SHACL shapes"@en ;
+    sh:declare [ sh:prefix "mbo" ; sh:namespace "https://w3id.org/mbo/ontology#"^^xsd:anyURI ] ,
+               [ sh:prefix "xsd" ; sh:namespace "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ] .
+
+mbosh:ConceptShape a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [ sh:path skos:inScheme ; sh:minCount 1 ; sh:maxCount 1 ; sh:class skos:ConceptScheme ;
+        sh:message "A concept needs exactly one skos:inScheme."@en ] ;
+    sh:property [ sh:path skos:prefLabel ; sh:uniqueLang true ; sh:languageIn ( "en" "de" ) ;
+        sh:qualifiedValueShape [ sh:languageIn ( "en" ) ] ; sh:qualifiedMinCount 1 ;
+        sh:message "A concept needs one English skos:prefLabel; German is optional; no duplicates per language."@en ] ;
+    sh:property [ sh:path dct:source ; sh:minCount 1 ; sh:nodeKind sh:IRI ;
+        sh:message "Every concept names at least one source (dct:source)."@en ] ;
+    sh:property [ sh:path mbo:verification ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "sourced" "seed" "rebrickable" "derived" ) ;
+        sh:message "mbo:verification is required and one of sourced, seed, rebrickable, derived."@en ] .
+
+mbosh:ColourShape a sh:NodeShape ;
+    sh:targetClass mbo:Colour ;
+    sh:property [ sh:path mbo:hexColour ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:pattern "^[0-9A-F]{6}$" ;
+        sh:message "mbo:hexColour is six upper-case hexadecimal digits without '#'."@en ] ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class mbo:ColourGroup ;
+        sh:message "A colour has exactly one finish group as skos:broader."@en ] .
+
+mbosh:ElementDesignShape a sh:NodeShape ;
+    sh:targetClass mbo:ElementDesign ;
+    sh:property [ sh:path skos:notation ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:class mbo:PartCategory ] ;
+    sh:property [ sh:path mbo:studsLength ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+    sh:property [ sh:path mbo:studsWidth ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+    sh:property [ sh:path mbo:heightInPlates ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+    sh:sparql [ a sh:SPARQLConstraint ; sh:prefixes <https://w3id.org/mbo/shapes> ;
+        sh:message "studsLength and studsWidth must come together."@en ;
+        sh:select """SELECT $this WHERE { $this mbo:studsLength ?l . FILTER NOT EXISTS { $this mbo:studsWidth ?w } }""" ] ;
+    sh:sparql [ a sh:SPARQLConstraint ; sh:prefixes <https://w3id.org/mbo/shapes> ;
+        sh:message "nominalLengthMm must equal studsLength x 8 - 0.2."@en ;
+        sh:select """SELECT $this WHERE { $this mbo:studsLength ?l ; mbo:nominalLengthMm ?n . FILTER (ABS(?n - (8 * ?l - 0.2)) > 0.001) }""" ] ;
+    sh:sparql [ a sh:SPARQLConstraint ; sh:prefixes <https://w3id.org/mbo/shapes> ;
+        sh:message "nominalHeightMm must equal heightInPlates x 3.2."@en ;
+        sh:select """SELECT $this WHERE { $this mbo:heightInPlates ?h ; mbo:nominalHeightMm ?n . FILTER (ABS(?n - 3.2 * ?h) > 0.001) }""" ] .
+
+mbosh:ElementShape a sh:NodeShape ;
+    sh:targetClass mbo:Element ;
+    sh:property [ sh:path mbo:hasDesign ; sh:minCount 1 ; sh:maxCount 1 ; sh:class mbo:ElementDesign ] ;
+    sh:property [ sh:path mbo:hasColour ; sh:minCount 1 ; sh:maxCount 1 ; sh:class mbo:Colour ] .
+
+mbosh:PieceShape a sh:NodeShape ;
+    sh:targetClass mbo:Piece ;
+    sh:property [ sh:path mbo:instanceOfElement ; sh:minCount 1 ; sh:maxCount 1 ; sh:class mbo:Element ] ;
+    sh:property [ sh:path mbo:gridX ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path mbo:gridY ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path mbo:gridZ ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path mbo:rotationDegrees ; sh:maxCount 1 ; sh:datatype xsd:decimal ] ;
+    sh:sparql [ a sh:SPARQLConstraint ; sh:prefixes <https://w3id.org/mbo/shapes> ;
+        sh:message "A piece in a layer needs gridX, gridY and gridZ."@en ;
+        sh:select """SELECT $this WHERE { $this mbo:inLayer ?l . FILTER NOT EXISTS { $this mbo:gridX ?x . $this mbo:gridY ?y . $this mbo:gridZ ?z } }""" ] .
+
+mbosh:LayerShape a sh:NodeShape ;
+    sh:targetClass mbo:Layer ;
+    sh:property [ sh:path mbo:layerIndex ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 0 ] ;
+    sh:property [ sh:path mbo:isLayerOf ; sh:minCount 1 ; sh:maxCount 1 ; sh:class mbo:Build ] ;
+    sh:property [ sh:path mbo:hasPiece ; sh:minCount 1 ; sh:class mbo:Piece ] .
+
+mbosh:BuildShape a sh:NodeShape ;
+    sh:targetClass mbo:Build ;
+    sh:property [ sh:path mbo:hasLayer ; sh:minCount 1 ; sh:class mbo:Layer ] .
+
+mbosh:BuildModelShape a sh:NodeShape ;
+    sh:targetClass mbo:BuildModel ;
+    sh:property [ sh:path mbo:describesBuild ; sh:minCount 1 ; sh:class mbo:Build ] ;
+    sh:property [ sh:path mbo:sceneScale ; sh:maxCount 1 ; sh:datatype xsd:decimal ] .
+
+mbosh:ReconstructionProcessShape a sh:NodeShape ;
+    sh:targetClass mbo:ReconstructionProcess ;
+    sh:property [ sh:path crmdig:L21_used_as_derivation_source ; sh:minCount 1 ] ;
+    sh:property [ sh:path crmdig:L22_created_derivative ; sh:minCount 1 ] .

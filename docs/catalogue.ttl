@@ -1,0 +1,140 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/mbo/agent/research-squirrel-engineers>
+    a foaf:Agent, foaf:Organization ;
+    foaf:homepage <https://github.com/Research-Squirrel-Engineers> ;
+    foaf:name "Research Squirrel Engineers" .
+
+<https://w3id.org/mbo/catalogue>
+    a dcat:Catalog ;
+    dct:description "Catalogue of the datasets of the Minimal Brick Ontology: ontology, thesaurus, shapes and a worked example."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    dct:publisher <https://w3id.org/mbo/agent/research-squirrel-engineers> ;
+    dct:title "Minimal Brick Ontology catalogue"@en ;
+    dcat:dataset <https://w3id.org/mbo/dataset/example>, <https://w3id.org/mbo/dataset/ontology>, <https://w3id.org/mbo/dataset/shapes>, <https://w3id.org/mbo/dataset/thesaurus> ;
+    foaf:homepage <https://research-squirrel-engineers.github.io/minimal-brick-ontology/> .
+
+<https://w3id.org/mbo/dataset/example>
+    a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description "A build description with layers, pieces, elements and a CRMdig reconstruction derivation. Layer sizes follow the author's reconstruction; the brick tiling is illustrative."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    dct:publisher <https://w3id.org/mbo/agent/research-squirrel-engineers> ;
+    dct:title "Worked example: stepped pyramid and minifigure"@en ;
+    dcat:distribution <https://w3id.org/mbo/distribution/example-pyramid-ttl> ;
+    dcat:keyword "build"@en, "example"@en, "reconstruction"@en ;
+    dcat:landingPage <https://research-squirrel-engineers.github.io/minimal-brick-ontology/index.html> .
+
+<https://w3id.org/mbo/dataset/ontology>
+    a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description "Small OWL ontology for bricks, plates, tiles, minifigure parts and models built from them, aligned to CIDOC CRM, CRMba and CRMdig."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    dct:publisher <https://w3id.org/mbo/agent/research-squirrel-engineers> ;
+    dct:title "Minimal Brick Ontology (OWL)"@en ;
+    dcat:distribution <https://w3id.org/mbo/distribution/ontology-ttl> ;
+    dcat:keyword "CIDOC CRM"@en, "OWL"@en, "building bricks"@en, "ontology"@en ;
+    dcat:landingPage <https://research-squirrel-engineers.github.io/minimal-brick-ontology/ontology.html> .
+
+<https://w3id.org/mbo/dataset/shapes>
+    a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description "SHACL shapes for the thesaurus, the ontology classes and build descriptions, plus a hand-written subset of the DCAT-AP 3.0 requirements."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    dct:publisher <https://w3id.org/mbo/agent/research-squirrel-engineers> ;
+    dct:title "SHACL shapes for the Minimal Brick Ontology and its DCAT-AP catalogue"@en ;
+    dcat:distribution <https://w3id.org/mbo/distribution/dcat-ap-subset-shapes-ttl>, <https://w3id.org/mbo/distribution/mbo-shapes-ttl> ;
+    dcat:keyword "SHACL"@en, "validation"@en ;
+    dcat:landingPage <https://research-squirrel-engineers.github.io/minimal-brick-ontology/index.html> .
+
+<https://w3id.org/mbo/dataset/thesaurus>
+    a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description "SKOS thesaurus of colours with hex approximations, part designs and categories, features, units and identifier systems. Every concept names its sources and a verification status."@en ;
+    dct:issued "2026-11-18"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-11-18"^^xsd:date ;
+    dct:publisher <https://w3id.org/mbo/agent/research-squirrel-engineers> ;
+    dct:title "Minimal Brick thesaurus (SKOS)"@en ;
+    dcat:distribution <https://w3id.org/mbo/distribution/colours-csv>, <https://w3id.org/mbo/distribution/thesaurus-json>, <https://w3id.org/mbo/distribution/thesaurus-ttl> ;
+    dcat:keyword "SKOS"@en, "colours"@en, "parts"@en, "thesaurus"@en ;
+    dcat:landingPage <https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.html> .
+
+<https://w3id.org/mbo/distribution/colours-csv>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "colours.csv (CSV)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/colours.csv> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/colours.csv> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> .
+
+<https://w3id.org/mbo/distribution/dcat-ap-subset-shapes-ttl>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "dcat-ap-subset-shapes.ttl (Turtle)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/dcat-ap-subset-shapes.ttl> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/dcat-ap-subset-shapes.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://w3id.org/mbo/distribution/example-pyramid-ttl>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "example-pyramid.ttl (Turtle)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/example-pyramid.ttl> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/example-pyramid.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://w3id.org/mbo/distribution/mbo-shapes-ttl>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "mbo-shapes.ttl (Turtle)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/mbo-shapes.ttl> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/mbo-shapes.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://w3id.org/mbo/distribution/ontology-ttl>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "ontology.ttl (Turtle)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/ontology.ttl> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/ontology.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<https://w3id.org/mbo/distribution/thesaurus-json>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "thesaurus.json (JSON)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.json> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.json> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/json> .
+
+<https://w3id.org/mbo/distribution/thesaurus-ttl>
+    a dcat:Distribution ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "thesaurus.ttl (Turtle)"@en ;
+    dcat:accessURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.ttl> ;
+    dcat:downloadURL <https://research-squirrel-engineers.github.io/minimal-brick-ontology/thesaurus.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .

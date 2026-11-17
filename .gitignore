@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Note: dist/ and docs/ are versioned on purpose (citable products and GitHub Pages).
+# data/raw/rebrickable/ is versioned too, so that a clone rebuilds identical products.

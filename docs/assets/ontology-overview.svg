@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 906" width="1560" height="906" font-family="Fira Sans, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker></defs>
+<rect width="1560" height="906" fill="#ffffff"/>
+<line x1="630" y1="73" x2="340" y2="73" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="930" y1="73" x2="1220" y2="73" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="780" y1="230" x2="780" y2="106" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="930" y1="263" x2="1220" y2="263" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="780" y1="420" x2="780" y2="296" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="930" y1="453" x2="1220" y2="453" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="340" y1="453" x2="630" y2="453" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="1370" y1="486" x2="1370" y2="610" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="190" y1="610" x2="190" y2="486" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="930" y1="643" x2="1220" y2="643" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="780" y1="800" x2="780" y2="676" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="930" y1="833" x2="1220" y2="833" stroke="#000000" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="424.8" y="59" width="120.4" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="485" y="78" text-anchor="middle" font-size="15" fill="#000000">skos:broader</text>
+<rect x="1023" y="59" width="104" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1075" y="78" text-anchor="middle" font-size="15" fill="#000000">hasFeature</text>
+<rect x="732.1" y="154" width="95.8" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="780" y="173" text-anchor="middle" font-size="15" fill="#000000">hasDesign</text>
+<rect x="1027.1" y="249" width="95.8" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1075" y="268" text-anchor="middle" font-size="15" fill="#000000">hasColour</text>
+<rect x="699.3" y="344" width="161.4" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="780" y="363" text-anchor="middle" font-size="15" fill="#000000">instanceOfElement</text>
+<rect x="1035.3" y="439" width="79.4" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1075" y="458" text-anchor="middle" font-size="15" fill="#000000">inLayer</text>
+<rect x="441.2" y="439" width="87.6" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="485" y="458" text-anchor="middle" font-size="15" fill="#000000">hasPiece</text>
+<rect x="1322.1" y="534" width="95.8" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1370" y="553" text-anchor="middle" font-size="15" fill="#000000">isLayerOf</text>
+<rect x="138" y="534" width="104" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="190" y="553" text-anchor="middle" font-size="15" fill="#000000">subClassOf</text>
+<rect x="1006.6" y="629" width="136.8" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1075" y="648" text-anchor="middle" font-size="15" fill="#000000">describesBuild</text>
+<rect x="678.8" y="724" width="202.4" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="780" y="743" text-anchor="middle" font-size="15" fill="#000000">L22 created derivative</text>
+<rect x="977.9" y="819" width="194.2" height="28" rx="14" fill="#fbbf24" stroke="#000000" stroke-width="1"/>
+<text x="1075" y="838" text-anchor="middle" font-size="15" fill="#000000">L21 derivation source</text>
+<rect x="40" y="40" width="300" height="66" rx="10" fill="#4c1d95" stroke="#000000" stroke-width="2"/>
+<text x="190.0" y="68" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Part category</text>
+<text x="190.0" y="90" text-anchor="middle" font-size="13" fill="#ffffff">SKOS concepts, crm:E55 Type</text>
+<rect x="630" y="40" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="780.0" y="68" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Element design</text>
+<text x="780.0" y="90" text-anchor="middle" font-size="13" fill="#ffffff">crm:E99 Product Type</text>
+<rect x="1220" y="40" width="300" height="66" rx="10" fill="#4c1d95" stroke="#000000" stroke-width="2"/>
+<text x="1370.0" y="68" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Feature</text>
+<text x="1370.0" y="90" text-anchor="middle" font-size="13" fill="#ffffff">SKOS concepts, crm:E55 Type</text>
+<rect x="630" y="230" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="780.0" y="258" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Element</text>
+<text x="780.0" y="280" text-anchor="middle" font-size="13" fill="#ffffff">crm:E99 Product Type</text>
+<rect x="1220" y="230" width="300" height="66" rx="10" fill="#4c1d95" stroke="#000000" stroke-width="2"/>
+<text x="1370.0" y="258" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Colour</text>
+<text x="1370.0" y="280" text-anchor="middle" font-size="13" fill="#ffffff">SKOS concepts, crm:E55 Type</text>
+<rect x="40" y="420" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="190.0" y="448" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Assembly</text>
+<text x="190.0" y="470" text-anchor="middle" font-size="13" fill="#ffffff">crm:E22 Human-Made Object</text>
+<rect x="630" y="420" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="780.0" y="448" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Piece</text>
+<text x="780.0" y="470" text-anchor="middle" font-size="13" fill="#ffffff">crm:E22 Human-Made Object</text>
+<rect x="1220" y="420" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="1370.0" y="448" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Layer</text>
+<text x="1370.0" y="470" text-anchor="middle" font-size="13" fill="#ffffff">crmba:B2 Morphological Building Section</text>
+<rect x="40" y="610" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="190.0" y="638" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Minifigure</text>
+<text x="190.0" y="660" text-anchor="middle" font-size="13" fill="#ffffff">subclass of Assembly</text>
+<rect x="630" y="610" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="780.0" y="638" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Build model</text>
+<text x="780.0" y="660" text-anchor="middle" font-size="13" fill="#ffffff">crmdig:D1 Digital Object</text>
+<rect x="1220" y="610" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="1370.0" y="638" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Build</text>
+<text x="1370.0" y="660" text-anchor="middle" font-size="13" fill="#ffffff">crmba:B1 Built Work</text>
+<rect x="630" y="800" width="300" height="66" rx="10" fill="#9a3412" stroke="#000000" stroke-width="2"/>
+<text x="780.0" y="828" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Reconstruction process</text>
+<text x="780.0" y="850" text-anchor="middle" font-size="13" fill="#ffffff">crmdig:D3 Formal Derivation</text>
+<rect x="1220" y="800" width="300" height="66" rx="10" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="1370.0" y="828" text-anchor="middle" font-size="19" font-weight="500" fill="#000000">crmdig:D1 Digital Object</text>
+<text x="1370.0" y="850" text-anchor="middle" font-size="13" fill="#000000">the scan</text>
+</svg>
