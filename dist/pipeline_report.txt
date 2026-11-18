@@ -2,14 +2,14 @@
   colours: 24 Rebrickable rows matched seed colours, 249 added
   parts: 45 seed parts confirmed in Rebrickable, 2381 added, 25012 printed variants skipped
   parts: 1 seed parts not found in parts.csv: 973
-  thesaurus: 30045 triples, colour=278, feature=3, identifier-system=5, part=2453, unit=8
+  thesaurus: 30046 triples, colour=278, feature=3, identifier-system=5, part=2453, unit=8
 == example
   example: 14 layers, 118 pieces, 1098 triples
 == catalogue
   catalogue: 126 triples, 4 datasets
 == validate
   parse   ontology             336 triples  (ontology/mbo.ttl)
-  parse   thesaurus          30045 triples  (dist/thesaurus.ttl)
+  parse   thesaurus          30046 triples  (dist/thesaurus.ttl)
   parse   example             1098 triples  (dist/example-pyramid.ttl)
   parse   catalogue            126 triples  (dist/catalogue.ttl)
   parse   mbo-shapes           185 triples  (shapes/mbo-shapes.ttl)

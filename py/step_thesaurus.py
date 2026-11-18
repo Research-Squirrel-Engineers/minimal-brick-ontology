@@ -226,7 +226,7 @@ def load_parts(report: list[str]) -> list[dict]:
             if fam:
                 sp["status"] = "rebrickable"
                 sp["sources"] = [x for x in sp["sources"] if x != "seed-unverified"] + ["rebrickable-downloads"]
-                sp["note"] = (sp["note"] + " " if sp["note"] else "") + "Rebrickable lists this design only as plain variants: " + ", ".join(fam) + "."
+                sp["note"] = (sp["note"].rstrip(". ") + ". " if sp["note"] else "") + "Rebrickable lists this design only as plain variants: " + ", ".join(fam) + "."
                 confirmed += 1
         report.append(f"parts: {confirmed} seed parts confirmed in Rebrickable, {added} added, {skipped} printed variants skipped")
         missing = [n for n, p in parts.items() if p["status"] == "seed"]

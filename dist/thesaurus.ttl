@@ -12791,7 +12791,7 @@ mbot:part
     skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-head> ;
     skos:inScheme mbot:part ;
     skos:notation "3626" ;
-    skos:note "Many printed variants exist; designs with suffix letters are separate entries in Rebrickable Rebrickable lists this design only as plain variants: 3626a, 3626b, 3626c."@en ;
+    skos:note "Many printed variants exist; designs with suffix letters are separate entries in Rebrickable. Rebrickable lists this design only as plain variants: 3626a, 3626b, 3626c."@en ;
     skos:prefLabel "Minifig Head"@en ;
     mbo:brickLinkId "3626" ;
     mbo:ldrawId "3626" ;
@@ -27217,6 +27217,7 @@ mbot:part
     skos:broader <https://w3id.org/mbo/thesaurus/part/minifig-torso> ;
     skos:inScheme mbot:part ;
     skos:notation "973" ;
+    skos:note "Rebrickable has no plain part 973; its torsos are numbered 973b01, 973e104 and so on, and the printed ones 973p.. or 973pr.. (checked in parts.csv of 2026-11-18)"@en ;
     skos:prefLabel "Minifig Torso"@en ;
     mbo:brickLinkId "973" ;
     mbo:ldrawId "973" ;
