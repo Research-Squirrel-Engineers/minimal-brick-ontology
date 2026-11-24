@@ -18,6 +18,7 @@ tiles and minifigure parts, and the models built from them.
 
 Namespace: `https://w3id.org/mbo/` (redirects prepared in `w3id/`, pending registration).
 Documentation: https://research-squirrel-engineers.github.io/minimal-brick-ontology/
+Archive (Zenodo): concept DOI https://doi.org/10.5281/zenodo.24504822 (all versions), version 0.1.0 https://doi.org/10.5281/zenodo.24504823
 
 ## Quick start (Windows cmd, one line)
 

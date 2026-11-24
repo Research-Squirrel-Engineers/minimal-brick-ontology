@@ -15,7 +15,11 @@ version: "0.1.0"
 date-released: "2026-11-24"
 repository-code: "https://github.com/Research-Squirrel-Engineers/minimal-brick-ontology"
 url: "https://research-squirrel-engineers.github.io/minimal-brick-ontology/"
-# doi: "10.5281/zenodo.XXXXXXX"  # TODO: add Zenodo DOI once minted
+doi: "10.5281/zenodo.24504822"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24504823"
+    description: "Version 0.1.0 on Zenodo"
 keywords:
   - ontology
   - SKOS
