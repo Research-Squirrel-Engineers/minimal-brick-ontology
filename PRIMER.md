@@ -161,7 +161,7 @@ Repo anlegen, Pages auf `docs/` stellen, `w3id/mbo/` per PR in `perma-id/w3id.or
 - Minifiguren-Kopfbedeckung: Kategorie vorhanden, noch kein Teil im Seed.
 - Soll `Element` (Design × Farbe) mit LEGO-Element-IDs im Thesaurus aufgezählt werden? Quelle `elements.csv` wäre groß; bisher nur im Beispiel on demand.
 - E54-Dimensionen nach CRM-Muster (P43) statt Kurzeigenschaften `studsLength` usw.?
-- ORCID in `CITATION.cff` und Kontakt-Handle in `w3id/mbo/README.md` eintragen.
+- Kontakt-Handle in `w3id/mbo/README.md` eintragen (ORCID in `CITATION.cff` seit 2026-11-24 eingetragen).
 - CRM-Namespaces (geprüft 2026-11-18): Die aktuelle CRMdig-Seite (Version 5.0, Oktober 2025) nennt als Namespace `http://www.cidoc-crm.org/extensions/crmdig/`, das ist der in MBO verwendete. Das veröffentlichte RDFS von CRMdig 3.2.1 und `lego-lrec` benutzen noch `http://www.ics.forth.gr/isl/CRMdig/`. Folge: `lego-lrec` auf den neuen Namespace umstellen oder bewusst beim alten bleiben und eine `owl:equivalentClass`-Brücke setzen. Für CRMba steht der Namespace auf der Seite nicht im geprüften Ausschnitt; `…/extensions/crmba/` bleibt unbelegt.
 - CRMba: `B2 Morphological Building Section` ist Unterklasse von `B1 Built Work` (CRMba-Seite, geprüft 2026-11-18); `mbo:Layer` erbt damit B1. Beschluss steht aus: so lassen (ein Layer ist ein Teil-Bauwerk) oder nur `B2` verwenden.
 - Python-Regel: keine Backslashes in f-String-Ausdrücken (SyntaxError vor Python 3.12, am 2026-11-18 in `step_docs.py` behoben).

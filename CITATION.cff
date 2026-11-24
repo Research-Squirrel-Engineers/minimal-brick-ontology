@@ -9,10 +9,10 @@ type: software
 authors:
   - family-names: Thiery
     given-names: Florian
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: insert ORCID
+    orcid: "https://orcid.org/0000-0002-3246-3531"
 license: MIT
 version: "0.1.0"
-date-released: "2026-11-18"
+date-released: "2026-11-24"
 repository-code: "https://github.com/Research-Squirrel-Engineers/minimal-brick-ontology"
 url: "https://research-squirrel-engineers.github.io/minimal-brick-ontology/"
 # doi: "10.5281/zenodo.XXXXXXX"  # TODO: add Zenodo DOI once minted
